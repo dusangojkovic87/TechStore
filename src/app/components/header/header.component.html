@@ -1,31 +1,19 @@
 <app-header-phone-number></app-header-phone-number>
 <div class="header-container">
-  <div class="main-logo-wrrapper">
-    <h1>TechStore</h1>
-    <div class="search-wrrapper">
-      <select name="categoryList" id="categoryList">
-        <option value="Desktop">Desktop</option>
-      </select>
-      <input
-        class="main__search__input"
-        type="text"
-        name="search"
-        placeholder="search for products.."
-      />
-      <button class="search__btn">Search</button>
-    </div>
+  <app-main-filter-search></app-main-filter-search>
+  <div class="page-navigation-links-container">
+    <app-page-navigation-links></app-page-navigation-links>
   </div>
-  <div class="menu-navigation-container">
-    <ul>
-      <li>Home</li>
-      <li class="divider"></li>
-      <li>New Collection</li>
-      <li class="divider"></li>
-      <li>Specials</li>
-      <li class="divider"></li>
-      <li>Contact us</li>
-      <li class="divider"></li>
-      <li>Blogs</li>
-    </ul>
+  <div class="header-bottom-wrrapper">
+    <app-dropdown-category-navigation></app-dropdown-category-navigation>
+    <div class="my-cart-cs-support-wrrapper">
+      <div class="cs-sup-wrrapper">
+        <span class="icon-headphones"></span>
+        <p class="cs__text">Customer Support 123456789</p>
+      </div>
+      <div class="my-cart-wrrapper">
+           <!--ovde dodaj my cart komponentu-->
+      </div>
+    </div>
   </div>
 </div>
