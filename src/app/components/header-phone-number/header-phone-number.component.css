@@ -38,13 +38,6 @@
   padding-right: 1rem;
 }
 
-.account-divider{
-  width: 1px;
-  height: 20px;
-  border-left: 1px solid grey;
-  border-right: 1px solid grey;
-}
-
 .padding-right-3px{
   padding-right: 3px;
 }
@@ -106,6 +99,7 @@
   justify-content: center;
   animation-name: dropdownExpand;
   animation-duration: 600ms;
+  border-radius:5px;
 }
 
 .account-item ul li{

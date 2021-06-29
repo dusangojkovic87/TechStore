@@ -43,3 +43,10 @@ html,body{
   }
 
 }
+
+.divider{
+  width: 1px;
+  height: 20px;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
