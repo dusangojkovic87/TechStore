@@ -1,0 +1,142 @@
+.header-phone-number-container{
+  position: relative;
+  width: 100%;
+  height:30px;
+  background-color: var(--main-light-dark);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__phone__number{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  font-size:0.8rem;
+  letter-spacing:1px;
+  margin-left: 50px;
+}
+
+.account-wrrapper{
+  position: relative;
+  width:300px;
+  height:30px;
+  z-index: 2;
+  display:flex;
+  align-items: center;
+  margin-right:50px;
+}
+
+.account-item{
+  position: relative;
+  width: 120px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.account-divider{
+  width: 1px;
+  height: 20px;
+  border-left: 1px solid grey;
+  border-right: 1px solid grey;
+}
+
+.padding-right-3px{
+  padding-right: 3px;
+}
+
+/*account and wishlist orange hover effect*/
+
+.account-link{
+  width: 150px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.account-link:hover .icon-account::before{
+  content: url("/assets/icons/account-orange.svg");
+  width: 16px;
+  height: 16px;
+}
+
+.account-link:hover .icon-caret-down::before{
+  position: absolute;
+  content: url("/assets/icons/caret-down-orange.svg");
+  width: 100%;
+  height: 100%;
+  top: -4px;
+
+}
+
+.wishlist-link{
+  width: 150px;
+  height: 30px;
+  cursor: pointer;
+}
+
+.wishlist-link:hover .icon-wishlist::before{
+  content: url("/assets/icons/wishlist-orange.svg");
+  width: 16px;
+  height: 16px;
+}
+
+.wishlist-link:hover .account__text{
+  color: var(--main-orange);
+}
+
+.account-link:hover .account__text{
+  color: var(--main-orange);
+}
+
+.account-dropdown{
+  position: relative;
+  display: none;
+}
+
+.account__text{
+  color:var(--main-white);
+  font-family: "Popins";
+  font-size: 0.8rem;
+  padding-left: 0.4rem;
+  cursor: pointer;
+  margin: 0;
+}
+
+.account__text:hover{
+  color: var(--main-orange);
+}
+
+
+
+.icon-account{
+  position: relative;
+  width: 16px;
+  height: 16px;
+  background: url("/assets/icons/account.svg");
+  z-index: 2;
+}
+
+.icon-wishlist{
+  position: relative;
+  width: 16px;
+  height: 16px;
+  background: url("/assets/icons/wishlist.svg");
+  z-index: 2;
+}
+
+.icon-caret-down{
+  position: relative;
+  width: 10px;
+  height: 10px;
+  background: url("/assets/icons/caret-down.svg");
+  z-index: 2;
+
+}
+
+
+
+

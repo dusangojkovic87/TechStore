@@ -1,1 +1,18 @@
 /* You can add global styles to this file, and also import other style files */
+:root{
+  --main-orange:#F2A413;
+  --main--dark:#1D1D1D;
+  --main-light-dark:#252525;
+  --main-white:#FFFFFF;
+}
+
+html,body{
+  margin: 0;
+  padding: 0;
+}
+
+/*FONTS*/
+@font-face {
+  font-family: "Popins";
+  src: url("assets/fonts/Poppins-Regular.ttf");
+}
