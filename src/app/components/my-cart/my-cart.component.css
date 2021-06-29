@@ -1,0 +1,63 @@
+.my-cart-container{
+  position: relative;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.icon-cart{
+  position: relative;
+  width: 40px;
+  height: 40px;
+  background: url("/assets/icons/cart.svg");
+  display: block;
+  background-repeat: no-repeat;
+  cursor: pointer;
+}
+
+.cart-icon-wrrapper{
+  position: relative;
+  width:150px;
+  height: 60px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cart__item__number{
+  position: absolute;
+  width:25px;
+  height:25px;
+  background-color: var(--main-orange);
+  z-index:2;
+  top:-20px;
+  left:50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.1rem;
+  border-radius: 50%;
+  color: white;
+  font-family: "Popins";
+  font-size: 0.8rem;
+}
+
+.total-price-wrrapper{
+  position: relative;
+  width:90px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.my__cart__text{
+  color: white;
+  font-family: "Popins";
+  font-size: 0.8rem;
+  padding-left:1rem;
+  margin: 0;
+}

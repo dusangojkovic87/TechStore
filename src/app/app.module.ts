@@ -8,6 +8,7 @@ import { HeaderPhoneNumberComponent } from './components/header-phone-number/hea
 import { DropdownCategoryNavigationComponent } from './components/dropdown-category-navigation/dropdown-category-navigation.component';
 import { PageNavigationLinksComponent } from './components/page-navigation-links/page-navigation-links.component';
 import { MainFilterSearchComponent } from './components/main-filter-search/main-filter-search.component';
+import { MyCartComponent } from './components/my-cart/my-cart.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { MainFilterSearchComponent } from './components/main-filter-search/main-
     HeaderPhoneNumberComponent,
     DropdownCategoryNavigationComponent,
     PageNavigationLinksComponent,
-    MainFilterSearchComponent
+    MainFilterSearchComponent,
+    MyCartComponent
   ],
   imports: [
     BrowserModule,
