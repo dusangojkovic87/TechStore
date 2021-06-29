@@ -92,9 +92,28 @@
   color: var(--main-orange);
 }
 
-.account-dropdown{
-  position: relative;
+.account-dropdown-hide{
   display: none;
+}
+
+.account-dropdown-show{
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: var(--main-white);
+  top: 20px;
+}
+
+.account-item ul li{
+  list-style: none;
+  padding:0.3rem;
+  font-family: "Popins";
+  font-size: 0.8rem;
+}
+
+.account-item ul li:hover{
+  color: var(--main-orange);
+
 }
 
 .account__text{
@@ -111,6 +130,7 @@
 }
 
 
+/*ICONS*/
 
 .icon-account{
   position: relative;
@@ -134,8 +154,16 @@
   height: 10px;
   background: url("/assets/icons/caret-down.svg");
   z-index: 2;
-
 }
+
+.icon-caret-up{
+  position: relative;
+  width: 10px;
+  height: 10px;
+  background: url("/assets/icons/caret-up-orange.svg");
+  z-index: 2;
+}
+
 
 
 
