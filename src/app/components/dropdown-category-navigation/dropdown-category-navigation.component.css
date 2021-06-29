@@ -22,3 +22,25 @@
   margin-right: 4px;
   background-repeat: no-repeat;
 }
+
+.category__text{
+  font-family: "Popins";
+  font-size:0.9rem;
+}
+
+@media only screen and (max-width:768px){
+  .category-navigation-container{
+    width: 30px;
+    height:30px;
+    margin-bottom:8px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .category__text{
+    display: none;
+  }
+
+}

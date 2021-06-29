@@ -1,6 +1,6 @@
 .my-cart-container{
   position: relative;
-  width: 200px;
+  width:150px;
   height: 60px;
   display: flex;
   align-items: center;
@@ -17,6 +17,12 @@
   cursor: pointer;
 }
 
+.cart-icon-wrrapper:hover .icon-cart::before{
+  content: url("/assets/icons/cart-orange.svg");
+  width: 40px;
+  height: 40px;
+}
+
 .cart-icon-wrrapper{
   position: relative;
   width:150px;
@@ -24,6 +30,7 @@
   display: flex;
   justify-content: flex-end;
   align-items: center;
+
 }
 
 .cart__item__number{
@@ -61,3 +68,4 @@
   padding-left:1rem;
   margin: 0;
 }
+
