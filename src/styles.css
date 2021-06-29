@@ -4,6 +4,7 @@
   --main--dark:#1D1D1D;
   --main-light-dark:#252525;
   --main-white:#FFFFFF;
+  --light-grey:#807a7a;
 }
 
 html,body{
@@ -15,4 +16,30 @@ html,body{
 @font-face {
   font-family: "Popins";
   src: url("assets/fonts/Poppins-Regular.ttf");
+}
+
+/*ANIMATIONS*/
+@keyframes dropdownExpand {
+  from{
+    width: 0px;
+    height: 0px;
+
+  }
+
+  to{
+    width: 100px;
+    height: 100px;
+  }
+
+}
+
+@keyframes fadeIn {
+  from{
+    opacity: 0;
+  }
+
+  to{
+    opacity: 1;
+  }
+
 }

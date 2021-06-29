@@ -98,17 +98,27 @@
 
 .account-dropdown-show{
   position: absolute;
-  width: 100px;
-  height: 100px;
   background-color: var(--main-white);
   top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation-name: dropdownExpand;
+  animation-duration: 600ms;
 }
 
 .account-item ul li{
+  position: relative;
   list-style: none;
-  padding:0.3rem;
+  padding-top:0.2rem;
+  padding-bottom:0.2rem;
   font-family: "Popins";
   font-size: 0.8rem;
+  width: 100px;
+  height:20px;
+  animation-name: fadeIn;
+  animation-duration: 600ms;
 }
 
 .account-item ul li:hover{
@@ -164,7 +174,7 @@
   z-index: 2;
 }
 
-@media only screen and (max-width:768px){
+@media only screen and (max-width:840px){
   .header__phone__number{
     display: none;
   }
