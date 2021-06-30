@@ -67,25 +67,7 @@
   height: 60px;
 }
 
-.tablet-search-wrrapper{
-  position: relative;
-  width:50px;
-  height:30px;
-  background-color: var(--main-orange);
-  padding:0.4rem;
-  border-radius:5px;
-  cursor: pointer;
-  display: none;
-}
 
-.icon-search{
-  position: relative;
-  width: 20px;
-  height: 20px;
-  display: block;
-  background: url("/assets/icons/search.svg");
-  background-repeat: no-repeat;
-}
 
 @media only screen and (max-width:840px){
   .icon-headphones{
@@ -100,13 +82,6 @@
   width: 70px;
   justify-content: flex-end;
 }
-
-  .tablet-search-wrrapper{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-  }
 
   .my-cart-cs-support-wrrapper{
     width:400px;

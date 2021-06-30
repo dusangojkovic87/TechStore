@@ -9,6 +9,7 @@ import { DropdownCategoryNavigationComponent } from './components/dropdown-categ
 import { PageNavigationLinksComponent } from './components/page-navigation-links/page-navigation-links.component';
 import { MainFilterSearchComponent } from './components/main-filter-search/main-filter-search.component';
 import { MyCartComponent } from './components/my-cart/my-cart.component';
+import { TabletDropdownSearchComponent } from './components/tablet-dropdown-search/tablet-dropdown-search.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { MyCartComponent } from './components/my-cart/my-cart.component';
     DropdownCategoryNavigationComponent,
     PageNavigationLinksComponent,
     MainFilterSearchComponent,
-    MyCartComponent
+    MyCartComponent,
+    TabletDropdownSearchComponent
   ],
   imports: [
     BrowserModule,
