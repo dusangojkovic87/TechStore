@@ -7,6 +7,11 @@
   --light-grey:#807a7a;
 }
 
+.activeLink{
+ color: var(--main-orange) !important;
+ border-bottom: 2px solid var(--main-orange);
+}
+
 html,body{
   margin: 0;
   padding: 0;

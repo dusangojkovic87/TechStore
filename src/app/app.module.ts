@@ -10,6 +10,8 @@ import { PageNavigationLinksComponent } from './components/page-navigation-links
 import { MainFilterSearchComponent } from './components/main-filter-search/main-filter-search.component';
 import { MyCartComponent } from './components/my-cart/my-cart.component';
 import { TabletDropdownSearchComponent } from './components/tablet-dropdown-search/tablet-dropdown-search.component';
+import { CarouselAndCategoryAsideNavComponent } from './components/carousel-and-category-aside-nav/carousel-and-category-aside-nav.component';
+import { HomeComponent } from './pages/home/home.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +22,9 @@ import { TabletDropdownSearchComponent } from './components/tablet-dropdown-sear
     PageNavigationLinksComponent,
     MainFilterSearchComponent,
     MyCartComponent,
-    TabletDropdownSearchComponent
+    TabletDropdownSearchComponent,
+    CarouselAndCategoryAsideNavComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
