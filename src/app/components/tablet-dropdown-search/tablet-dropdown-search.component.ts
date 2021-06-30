@@ -6,10 +6,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./tablet-dropdown-search.component.css']
 })
 export class TabletDropdownSearchComponent implements OnInit {
+  dropdownSearchState:boolean = false;
 
   constructor() { }
 
   ngOnInit(): void {
   }
 
+  tabletSearchDropdownToggle(event:Event){
+    event.stopPropagation();
+    event.preventDefault();
+    this.dropdownSearchState = !this.dropdownSearchState;
+  }
 }

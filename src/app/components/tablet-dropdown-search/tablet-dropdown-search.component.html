@@ -1,3 +1,17 @@
 <div class="tablet-search-wrrapper">
-  <span class="icon-search"></span>
+  <span (click)="tabletSearchDropdownToggle($event)" [ngClass] = "dropdownSearchState ? 'icon-close' :'icon-search'"></span>
+  <div
+    [ngClass]="
+      dropdownSearchState
+        ? 'search-input-dropdown-container-show'
+        : 'search-input-dropdown-container-hide'
+    "
+  >
+    <form class="search-input-form">
+      <input type="text" name="search" placeholder="search..." />
+      <div class="search-icon-wrrapper">
+        <span class="icon-search"></span>
+      </div>
+    </form>
+  </div>
 </div>
