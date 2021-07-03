@@ -1,0 +1,20 @@
+.carousel-aside-nav-container{
+  position: relative;
+  width: 100%;
+  height: 500px;
+  background-color:white;
+  top: 0;
+  left: 0;
+}
+
+.aside-nav-wrrapper{
+  position: relative;
+  margin: 0;
+  left: 0;
+  top: 0;
+  width:263px;
+  padding-left: 20px;
+  height: 400px;
+}
+
+

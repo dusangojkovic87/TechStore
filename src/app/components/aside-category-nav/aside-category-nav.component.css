@@ -1,0 +1,146 @@
+ul{
+  margin-top: 0;
+  padding-top: 20px;
+  border:2px solid var(--main-orange);
+  height: 450px;
+}
+
+ul li{
+  list-style: none;
+  display: flex;
+  font-family: "Popins";
+  font-weight: bold;
+  font-size: 0.8rem;
+  align-items: center;
+  padding: 0.5rem;
+  color: var(--light-grey);
+  cursor: pointer;
+}
+
+ul li:hover{
+  color: var(--main-orange);
+}
+
+/*ICONS*/
+
+.icon-desktop{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background: url("/assets/icons/aside-nav/desktop.svg");
+  background-repeat: no-repeat;
+  display: block;
+  padding-right: 4px;
+}
+
+.icon-laptop{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background: url("/assets/icons/aside-nav/laptop.svg");
+  background-repeat: no-repeat;
+  display: block;
+  padding-right: 4px;
+}
+
+.icon-camera{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background: url("/assets/icons/aside-nav/camera.svg");
+  background-repeat: no-repeat;
+  display: block;
+  padding-right: 4px;
+}
+
+.icon-phone{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background: url("/assets/icons/aside-nav/phone.svg");
+  background-repeat: no-repeat;
+  display: block;
+  padding-right: 4px;
+}
+
+.icon-printer{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background: url("/assets/icons/aside-nav/printer.svg");
+  background-repeat: no-repeat;
+  display: block;
+  padding-right: 4px;
+}
+
+.icon-scanner{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background: url("/assets/icons/aside-nav/scanner.svg");
+  background-repeat: no-repeat;
+  display: block;
+  padding-right: 4px;
+}
+
+.icon-watch{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background: url("/assets/icons/aside-nav/watch.svg");
+  background-repeat: no-repeat;
+  display: block;
+  padding-right: 4px;
+}
+
+.icon-mouse{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background: url("/assets/icons/aside-nav/mouse.svg");
+  background-repeat: no-repeat;
+  display: block;
+  padding-right: 4px;
+}
+
+.cat__list__desktops:hover .icon-desktop{
+  content: url("/assets/icons/aside-nav/desktop-orange.svg");
+}
+
+.cat__list__laptops:hover .icon-laptop{
+  content: url("/assets/icons/aside-nav/laptop-orange.svg");
+}
+
+.cat__list__cameras:hover .icon-camera{
+  content: url("/assets/icons/aside-nav/camera-orange.svg");
+}
+
+.cat__list__phones:hover .icon-phone{
+  content: url("/assets/icons/aside-nav/phone-orange.svg");
+}
+
+.cat__list__scanners:hover .icon-scanner{
+  content: url("/assets/icons/aside-nav/scanner-orange.svg");
+}
+
+.cat__list__watches:hover .icon-watch{
+  content: url("/assets/icons/aside-nav/watch-orange.svg");
+}
+
+.cat__list__peripherals:hover .icon-mouse{
+  content: url("/assets/icons/aside-nav/mouse-orange.svg");
+}
+
+@media only screen and (max-width:840px){
+  .aside-category-container{
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+

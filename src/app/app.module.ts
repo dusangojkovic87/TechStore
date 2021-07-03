@@ -12,6 +12,7 @@ import { MyCartComponent } from './components/my-cart/my-cart.component';
 import { TabletDropdownSearchComponent } from './components/tablet-dropdown-search/tablet-dropdown-search.component';
 import { CarouselAndCategoryAsideNavComponent } from './components/carousel-and-category-aside-nav/carousel-and-category-aside-nav.component';
 import { HomeComponent } from './pages/home/home.component';
+import { AsideCategoryNavComponent } from './components/aside-category-nav/aside-category-nav.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { HomeComponent } from './pages/home/home.component';
     MyCartComponent,
     TabletDropdownSearchComponent,
     CarouselAndCategoryAsideNavComponent,
-    HomeComponent
+    HomeComponent,
+    AsideCategoryNavComponent
   ],
   imports: [
     BrowserModule,

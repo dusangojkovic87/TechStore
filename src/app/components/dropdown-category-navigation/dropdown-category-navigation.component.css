@@ -1,6 +1,6 @@
 .category-navigation-container{
   position: relative;
-  width: 200px;
+  width: 250px;
   height:40px;
   background-color: var(--main-orange);
   display: flex;
