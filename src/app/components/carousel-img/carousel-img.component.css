@@ -1,0 +1,7 @@
+.carousel__img{
+  position: relative;
+  width: 500px;
+  height: 500px;
+  object-fit: contain;
+  user-select: none;
+}

@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import {HttpClientModule} from "@angular/common/http";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -13,6 +14,8 @@ import { TabletDropdownSearchComponent } from './components/tablet-dropdown-sear
 import { CarouselAndCategoryAsideNavComponent } from './components/carousel-and-category-aside-nav/carousel-and-category-aside-nav.component';
 import { HomeComponent } from './pages/home/home.component';
 import { AsideCategoryNavComponent } from './components/aside-category-nav/aside-category-nav.component';
+import { CarouselImgSliderComponent } from './components/carousel-img-slider/carousel-img-slider.component';
+import { CarouselImgComponent } from './components/carousel-img/carousel-img.component';
 
 @NgModule({
   declarations: [
@@ -26,11 +29,14 @@ import { AsideCategoryNavComponent } from './components/aside-category-nav/aside
     TabletDropdownSearchComponent,
     CarouselAndCategoryAsideNavComponent,
     HomeComponent,
-    AsideCategoryNavComponent
+    AsideCategoryNavComponent,
+    CarouselImgSliderComponent,
+    CarouselImgComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

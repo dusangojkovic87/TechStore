@@ -131,7 +131,7 @@ ul li:hover{
   content: url("/assets/icons/aside-nav/mouse-orange.svg");
 }
 
-@media only screen and (max-width:840px){
+ @media only screen and (max-width:840px){
   .aside-category-container{
     display: none;
   }
