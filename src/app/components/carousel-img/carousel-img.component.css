@@ -4,4 +4,7 @@
   height: 500px;
   object-fit: contain;
   user-select: none;
+  animation-name: fadeInScale;
+  animation-duration: 2s;
+  animation-delay:200ms ease-in;
 }
