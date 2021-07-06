@@ -7,6 +7,7 @@
   border-radius:5px;
   cursor: pointer;
   display: none;
+  z-index: 100;
 }
 
 .icon-search{
@@ -68,6 +69,7 @@
   background-color: var(--main-orange);
   border-top-right-radius: 5px;
   border-bottom-right-radius: 5px;
+  z-index: 100;
 }
 
 ::placeholder{

@@ -14,6 +14,7 @@ export class CarouselImgSliderComponent implements OnInit, AfterViewInit {
   @ViewChildren('slideImageTemplateRef') slideImages?: QueryList<ElementRef>;
   imagesHtml: HTMLElement[] = [];
   currentSlide: number = 0;
+  slideInterval: any;
 
   constructor(private carouselService: CarouselService) {}
 
@@ -31,6 +32,12 @@ export class CarouselImgSliderComponent implements OnInit, AfterViewInit {
         this.initHideImages();
         this.startSlide();
       });
+
+    if (window.innerWidth < 768) {
+      this.automaticSlideShow();
+    }else{
+      if (this.slideInterval) clearInterval(this.slideInterval);
+    }
   }
 
   castElementRefToHtmlRef(images: Array<ElementRef>) {
@@ -73,5 +80,34 @@ export class CarouselImgSliderComponent implements OnInit, AfterViewInit {
       this.currentSlide++;
       this.startSlide();
     }
+  }
+
+  onWindowResizeSlider(event: UIEvent) {
+    if (event) {
+      let window = event.target as Window;
+      if (window.innerWidth < 768) {
+        this.automaticSlideShow();
+      } else if (window.innerWidth > 768) {
+        if (this.slideInterval) clearInterval(this.slideInterval);
+      }
+    }
+  }
+
+  automaticSlideShow() {
+    this.slideInterval = setInterval(() => {
+      if (this.currentSlide <= 0) {
+        this.initHideImages();
+        this.currentSlide++;
+        this.startSlide();
+      } else if (this.currentSlide >= this.imagesHtml.length - 1) {
+        this.initHideImages();
+        this.currentSlide--;
+        this.startSlide();
+      } else {
+        this.initHideImages();
+        this.currentSlide++;
+        this.startSlide();
+      }
+    }, 3500);
   }
 }

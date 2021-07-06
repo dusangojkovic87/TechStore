@@ -1,4 +1,4 @@
-<div class="carousel-container">
+<div class="carousel-container" (window:resize) = "onWindowResizeSlider($event)">
   <div (click)="slideLeft()" class="slide-nav slide-left">
     <span class="icon-arrow-left"></span>
   </div>

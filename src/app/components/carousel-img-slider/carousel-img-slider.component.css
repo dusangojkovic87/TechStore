@@ -48,3 +48,23 @@
   display: block;
   background-repeat: no-repeat;
 }
+
+@media only screen and (max-width:768px){
+  .carousel-container{
+    width: 100%;
+    padding: 0;
+    height: 400px;
+  }
+
+  .slide-nav{
+    display: none;
+  }
+
+
+
+
+
+
+
+
+}
