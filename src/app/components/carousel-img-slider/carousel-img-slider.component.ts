@@ -1,4 +1,4 @@
-import { ElementRef, QueryList, ViewChild } from '@angular/core';
+import { ElementRef, QueryList } from '@angular/core';
 import { ViewChildren } from '@angular/core';
 import { Component, OnInit, AfterViewInit } from '@angular/core';
 import { Carousel } from 'src/app/Models/Carousel';
@@ -15,6 +15,8 @@ export class CarouselImgSliderComponent implements OnInit, AfterViewInit {
   imagesHtml: HTMLElement[] = [];
   currentSlide: number = 0;
   slideInterval: any;
+  slideIntervalCleared?: boolean = true;
+  canActivateInterval: boolean = false;
 
   constructor(private carouselService: CarouselService) {}
 
@@ -22,6 +24,16 @@ export class CarouselImgSliderComponent implements OnInit, AfterViewInit {
     this.carouselService.getImages().subscribe((data: Carousel) => {
       this.CarouselImages = data;
     });
+
+    if (window.innerWidth < 768) {
+      this.canActivateInterval = true;
+      this.startSlideInterval();
+      this.slideIntervalCleared = false;
+    } else {
+      this.canActivateInterval = false;
+      this.clearSlideInterval();
+      this.slideIntervalCleared = true;
+    }
   }
 
   ngAfterViewInit() {
@@ -32,12 +44,6 @@ export class CarouselImgSliderComponent implements OnInit, AfterViewInit {
         this.initHideImages();
         this.startSlide();
       });
-
-    if (window.innerWidth < 768) {
-      this.automaticSlideShow();
-    }else{
-      if (this.slideInterval) clearInterval(this.slideInterval);
-    }
   }
 
   castElementRefToHtmlRef(images: Array<ElementRef>) {
@@ -86,28 +92,42 @@ export class CarouselImgSliderComponent implements OnInit, AfterViewInit {
     if (event) {
       let window = event.target as Window;
       if (window.innerWidth < 768) {
-        this.automaticSlideShow();
+        this.canActivateInterval = true;
+        this.startSlideInterval();
+        this.slideIntervalCleared = false;
       } else if (window.innerWidth > 768) {
-        if (this.slideInterval) clearInterval(this.slideInterval);
+        this.canActivateInterval = false;
+        this.clearSlideInterval();
+        this.slideIntervalCleared = true;
       }
     }
   }
 
   automaticSlideShow() {
-    this.slideInterval = setInterval(() => {
-      if (this.currentSlide <= 0) {
-        this.initHideImages();
-        this.currentSlide++;
-        this.startSlide();
-      } else if (this.currentSlide >= this.imagesHtml.length - 1) {
-        this.initHideImages();
-        this.currentSlide--;
-        this.startSlide();
-      } else {
-        this.initHideImages();
-        this.currentSlide++;
-        this.startSlide();
-      }
-    }, 3500);
+    if (this.currentSlide <= 0) {
+      this.initHideImages();
+      this.currentSlide++;
+      this.startSlide();
+    } else if (this.currentSlide >= this.imagesHtml.length - 1) {
+      this.initHideImages();
+      this.currentSlide--;
+      this.startSlide();
+    } else {
+      this.initHideImages();
+      this.currentSlide++;
+      this.startSlide();
+    }
+  }
+
+  startSlideInterval() {
+    if (this.slideIntervalCleared == true && this.canActivateInterval == true) {
+      this.slideInterval = setInterval(() => {
+        this.automaticSlideShow();
+      }, 3500);
+    }
+  }
+
+  clearSlideInterval() {
+    clearInterval(this.slideInterval);
   }
 }

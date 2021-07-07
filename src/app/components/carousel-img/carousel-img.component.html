@@ -1,1 +1,11 @@
-<img class="carousel__img" src={{sliderImage?.img}} alt={{sliderImage?.img}}>
+<img
+  class="carousel__img"
+  src="{{ sliderImage?.img }}"
+  alt="{{ sliderImage?.img }}"
+/>
+<div class="carousel-details-wrrapper">
+  <p class="carousel__product__name">{{ sliderImage?.productName }}</p>
+  <p class="carousel__product__price">
+    {{ sliderImage?.price | currency: "EUR" }}
+  </p>
+</div>

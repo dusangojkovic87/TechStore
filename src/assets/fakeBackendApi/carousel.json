@@ -1,14 +1,20 @@
 [
   {
     "id":1,
-    "img":"/assets/images/carousel/img1.png"
+    "img":"/assets/images/carousel/img1.png",
+    "productName":"Altos Hunter",
+    "price":234
   },
   {
     "id":2,
-    "img":"/assets/images/carousel/img2.jpg"
+    "img":"/assets/images/carousel/img2.jpg",
+    "productName":"Lenovo IP 5 82LM0043YA ",
+    "price":456
   },
   {
     "id":3,
-    "img":"/assets/images/carousel/img3.png"
+    "img":"/assets/images/carousel/img3.png",
+    "productName":"Altos Panter Pro",
+    "price":234
   }
 ]
