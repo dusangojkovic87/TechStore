@@ -1,0 +1,56 @@
+[
+  {
+    "id":1,
+    "productName":"Headphones Rode",
+    "price":232.50,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":3,
+    "img":"/assets/images/featured/img1.jpg"
+  },
+  {
+    "id":2,
+    "productName":"Watch Apple series 3",
+    "price":137.99,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/featured/img2.jpg"
+  },
+  {
+    "id":3,
+    "productName":"Eufy indoor camera",
+    "price":43,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":3,
+    "img":"/assets/images/featured/img3.jpg"
+  },
+  {
+    "id":4,
+    "productName":"Table vivax",
+    "price":120,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":3,
+    "img":"/assets/images/featured/img4.jpg"
+  },
+  {
+    "id":5,
+    "productName":"Motorola G5",
+    "price":232.50,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":2,
+    "img":"/assets/images/featured/img5.png"
+  },
+  {
+    "id":6,
+    "productName":"Denver smart watch ",
+    "price":190.23,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":3,
+    "img":"/assets/images/featured/img6.png"
+  }
+]

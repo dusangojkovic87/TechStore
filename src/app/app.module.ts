@@ -1,6 +1,10 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import {HttpClientModule} from "@angular/common/http";
+
+
+
+
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -18,6 +22,9 @@ import { CarouselImgComponent } from './components/carousel-img/carousel-img.com
 import { BannerComponent } from './components/banner/banner.component';
 import { BannerListComponent } from './components/banner-list/banner-list.component';
 import { InfoCardComponent } from './components/info-card/info-card.component';
+import { FeaturedProductListComponent } from './components/featured-product-list/featured-product-list.component';
+import { ProductComponent } from './components/product/product.component';
+import { RatingComponent } from './components/rating/rating.component';
 
 @NgModule({
   declarations: [
@@ -35,13 +42,17 @@ import { InfoCardComponent } from './components/info-card/info-card.component';
     CarouselImgComponent,
     BannerComponent,
     BannerListComponent,
-    InfoCardComponent
+    InfoCardComponent,
+    FeaturedProductListComponent,
+    ProductComponent,
+    RatingComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule
   ],
+  schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   providers: [],
   bootstrap: [AppComponent]
 })
