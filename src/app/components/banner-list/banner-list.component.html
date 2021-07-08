@@ -1,0 +1,5 @@
+<div class="banner-list-container">
+  <ng-container *ngFor="let b of banners;let i = index" >
+     <app-banner [ngClass] = "i % 2 == 0 ? 'green-banner':'blue-banner'" [bannerItem] = "b"></app-banner>
+  </ng-container>
+</div>

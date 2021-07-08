@@ -16,6 +16,8 @@ import { AsideCategoryNavComponent } from './components/aside-category-nav/aside
 import { CarouselImgSliderComponent } from './components/carousel-img-slider/carousel-img-slider.component';
 import { CarouselImgComponent } from './components/carousel-img/carousel-img.component';
 import { BannerComponent } from './components/banner/banner.component';
+import { BannerListComponent } from './components/banner-list/banner-list.component';
+import { InfoCardComponent } from './components/info-card/info-card.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { BannerComponent } from './components/banner/banner.component';
     AsideCategoryNavComponent,
     CarouselImgSliderComponent,
     CarouselImgComponent,
-    BannerComponent
+    BannerComponent,
+    BannerListComponent,
+    InfoCardComponent
   ],
   imports: [
     BrowserModule,

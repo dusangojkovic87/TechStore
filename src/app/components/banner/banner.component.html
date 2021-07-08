@@ -1,1 +1,10 @@
-<p>banner works!</p>
+<div class="banner-container">
+  <div class="banner-details-wrrapper">
+    <p class="banner__text">Sale {{ bannerItem?.salePercent }} % off</p>
+    <p class="banner__text banner__category__text">{{ bannerItem?.productCategory }}</p>
+    <button class="banner__btn">grab offer!!</button>
+  </div>
+  <div class="banner-img-wrrapper">
+    <img src="{{ bannerItem?.img }}" alt="{{ bannerItem?.img }}" />
+  </div>
+</div>

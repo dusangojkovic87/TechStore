@@ -6,7 +6,12 @@
   --main-white:#FFFFFF;
   --light-grey:#807a7a;
   --text-dark-orange:#9e6309;
+  --light-green:#C1D96A;
+  --light-blue:#75AABF;
+  --light-border-grey:rgb(236, 235, 235);
 }
+
+
 
 .activeLink{
  color: var(--main-orange) !important;
@@ -81,12 +86,15 @@ html,body{
 
 }
 
-
-
 .divider{
   width: 1px;
   height: 20px;
   border-left: 1px solid grey;
   border-right: 1px solid grey;
+}
+
+/*UTIL CLASSES*/
+.font--weight--bold{
+  font-weight: bold;
 }
 

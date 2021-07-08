@@ -1,0 +1,76 @@
+.banner-container{
+  position: relative;
+  height:200px;
+  display: flex;
+  align-items: center;
+}
+
+.banner-details-wrrapper{
+  position: relative;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.banner-img-wrrapper{
+  position: relative;
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-img-wrrapper img{
+  position: absolute;
+  width: 90%;
+  height:90%;
+  cursor: pointer;
+  transition: transform;
+  transition-duration:500ms;
+  object-fit: contain;
+}
+
+.banner__text{
+  font-family: "Popins";
+  font-size: 1.4rem;
+  color: white;
+}
+
+.banner__category__text{
+  position: relative;
+  top:-40px;
+  font-weight: bold;
+}
+
+.banner__btn{
+  position: relative;
+  width:50%;
+  top: -20px;
+  cursor: pointer;
+  text-transform: uppercase;
+  color: white;
+  font-family: "Popins";
+  background-color: transparent;
+  border-bottom: 1px solid white;
+  border-left: none;
+  border-top: none;
+  border-right: none;
+  font-weight: bold;
+}
+
+.banner__btn:hover{
+  color: black;
+  border-bottom: 1px solid black;
+}
+
+.banner-img-wrrapper:hover img{
+  transform: scale(1.1);
+
+
+}
+
+
+
