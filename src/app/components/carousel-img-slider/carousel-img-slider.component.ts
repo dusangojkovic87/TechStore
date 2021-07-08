@@ -17,6 +17,7 @@ export class CarouselImgSliderComponent implements OnInit, AfterViewInit {
   slideInterval: any;
   slideIntervalCleared?: boolean = true;
   canActivateInterval: boolean = false;
+  screenSize:number = 970;
 
   constructor(private carouselService: CarouselService) {}
 
@@ -25,7 +26,7 @@ export class CarouselImgSliderComponent implements OnInit, AfterViewInit {
       this.CarouselImages = data;
     });
 
-    if (window.innerWidth < 768) {
+    if (window.innerWidth < this.screenSize) {
       this.canActivateInterval = true;
       this.startSlideInterval();
       this.slideIntervalCleared = false;
@@ -91,11 +92,11 @@ export class CarouselImgSliderComponent implements OnInit, AfterViewInit {
   onWindowResizeSlider(event: UIEvent) {
     if (event) {
       let window = event.target as Window;
-      if (window.innerWidth < 768) {
+      if (window.innerWidth < this.screenSize) {
         this.canActivateInterval = true;
         this.startSlideInterval();
         this.slideIntervalCleared = false;
-      } else if (window.innerWidth > 768) {
+      } else if (window.innerWidth > this.screenSize) {
         this.canActivateInterval = false;
         this.clearSlideInterval();
         this.slideIntervalCleared = true;

@@ -1,0 +1,25 @@
+.home-page{
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+
+.main-home-page-container{
+  position: relative;
+  width: 100%;
+}
+.aside-home-page-container{
+  position: relative;
+  width: 300px;
+}
+
+@media only screen and (max-width:970px){
+  .home-page{
+    justify-content: center;
+  }
+
+
+  .aside-home-page-container{
+    display: none;
+  }
+}

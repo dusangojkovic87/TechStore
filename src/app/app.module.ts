@@ -11,11 +11,11 @@ import { PageNavigationLinksComponent } from './components/page-navigation-links
 import { MainFilterSearchComponent } from './components/main-filter-search/main-filter-search.component';
 import { MyCartComponent } from './components/my-cart/my-cart.component';
 import { TabletDropdownSearchComponent } from './components/tablet-dropdown-search/tablet-dropdown-search.component';
-import { CarouselAndCategoryAsideNavComponent } from './components/carousel-and-category-aside-nav/carousel-and-category-aside-nav.component';
 import { HomeComponent } from './pages/home/home.component';
 import { AsideCategoryNavComponent } from './components/aside-category-nav/aside-category-nav.component';
 import { CarouselImgSliderComponent } from './components/carousel-img-slider/carousel-img-slider.component';
 import { CarouselImgComponent } from './components/carousel-img/carousel-img.component';
+import { BannerComponent } from './components/banner/banner.component';
 
 @NgModule({
   declarations: [
@@ -27,11 +27,11 @@ import { CarouselImgComponent } from './components/carousel-img/carousel-img.com
     MainFilterSearchComponent,
     MyCartComponent,
     TabletDropdownSearchComponent,
-    CarouselAndCategoryAsideNavComponent,
     HomeComponent,
     AsideCategoryNavComponent,
     CarouselImgSliderComponent,
-    CarouselImgComponent
+    CarouselImgComponent,
+    BannerComponent
   ],
   imports: [
     BrowserModule,
