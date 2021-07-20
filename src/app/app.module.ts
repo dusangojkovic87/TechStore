@@ -28,6 +28,7 @@ import { RatingComponent } from './components/rating/rating.component';
 import { AsideBannerComponent } from './components/aside-banner/aside-banner.component';
 import { ProductMenuComponent } from './components/product/product-menu/product-menu.component';
 import { ProductDetailsComponent } from './pages/product-details/product-details.component';
+import { ProductDetailsViewComponent } from './components/product-details-view/product-details-view.component';
 
 @NgModule({
   declarations: [
@@ -51,7 +52,8 @@ import { ProductDetailsComponent } from './pages/product-details/product-details
     RatingComponent,
     AsideBannerComponent,
     ProductMenuComponent,
-    ProductDetailsComponent
+    ProductDetailsComponent,
+    ProductDetailsViewComponent
   ],
   imports: [
     BrowserModule,

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnDestroy, OnInit } from '@angular/core';
 import { ActivatedRoute, Params } from '@angular/router';
 import { Product } from 'src/app/Models/Product';
 import { ProductService } from 'src/app/Services/product.service';
@@ -9,9 +9,10 @@ import { map } from 'rxjs/operators';
   templateUrl: './product-details.component.html',
   styleUrls: ['./product-details.component.css'],
 })
-export class ProductDetailsComponent implements OnInit {
+export class ProductDetailsComponent implements OnInit,OnDestroy {
   id?: number;
-  product?: Product;
+  product: Product[] = [];
+  isLoaded:boolean = false;
 
   constructor(
     private route: ActivatedRoute,
@@ -21,7 +22,6 @@ export class ProductDetailsComponent implements OnInit {
   ngOnInit(): void {
     this.route.params.subscribe((params: Params) => {
       this.id = +params.id;
-      console.log('id', this.id);
     });
 
     this.productServise
@@ -33,6 +33,11 @@ export class ProductDetailsComponent implements OnInit {
       )
       .subscribe((product) => {
         this.product = product;
+        this.isLoaded = true;
       });
+  }
+
+  ngOnDestroy(){
+    this.isLoaded = false;
   }
 }

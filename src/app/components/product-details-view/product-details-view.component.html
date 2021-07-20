@@ -1,0 +1,15 @@
+<div class="product-details-view-container" *ngFor="let p of product">
+  <div class="product-details-img-wrrapper">
+     <img src={{p?.img}} alt={{p?.img}}>
+  </div>
+  <div class="product-details-wrrapper">
+    <p class="product__name">{{p?.productName}}</p>
+    <div class="rating-wrrapper">
+      <app-rating [rating] ="p?.rating"></app-rating>
+      <div class="review-wrrapper">
+        <span class="icon-pencil"></span>
+        <a class="review__link" href="#">Write a review</a>
+      </div>
+    </div>
+  </div>
+</div>

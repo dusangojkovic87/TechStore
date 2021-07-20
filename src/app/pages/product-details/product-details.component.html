@@ -3,6 +3,8 @@
     <app-aside-category-nav></app-aside-category-nav>
   </div>
   <div class="main-details-page-container">
-
+    <ng-container *ngIf="isLoaded">
+      <app-product-details-view [product] = "product"></app-product-details-view>
+    </ng-container>
   </div>
 </div>
