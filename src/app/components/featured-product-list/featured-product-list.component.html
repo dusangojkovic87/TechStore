@@ -1,3 +1,16 @@
+<div class="featured-product-nav-container">
+  <h2>Featured Products</h2>
+  <div class="featured-nav-wrrapper">
+    <span (click)="slideLeft()" class="icon-left-arrow"></span>
+    <span (click)="slideRight()" class="icon-right-arrow"></span>
+  </div>
+</div>
 <div class="featured-products-container">
-  <app-product></app-product>
+  <div class="slider-container">
+    <div #slider class="slider">
+      <div class="slide-product-wrrapper" *ngFor="let product of products">
+        <app-product [product]="product"></app-product>
+      </div>
+    </div>
+  </div>
 </div>
