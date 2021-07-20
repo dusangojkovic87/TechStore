@@ -1,0 +1,16 @@
+.product-details-container{
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+.aside-container{
+  position: relative;
+  width: 300px;
+}
+
+.main-details-page-container{
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}

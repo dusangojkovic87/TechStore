@@ -6,7 +6,8 @@
     />
   </div>
   <div class="product-details-wrraper">
-    <app-rating></app-rating>
+    <app-product-menu [productId] = "product?.id"></app-product-menu>
+    <app-rating [rating] = "product?.rating"></app-rating>
     <div class="product-details-text-wrrapper">
       <p class="product__details__text product__heading">{{product?.productName}}</p>
       <p class="product__details__text">{{product?.price | currency : 'EUR'}}</p>

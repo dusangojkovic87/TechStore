@@ -12,12 +12,12 @@ import { ProductService } from 'src/app/Services/product.service';
   templateUrl: './featured-product-list.component.html',
   styleUrls: ['./featured-product-list.component.css'],
 })
-export class FeaturedProductListComponent implements OnInit,AfterViewInit {
+export class FeaturedProductListComponent implements OnInit, AfterViewInit {
   products?: any;
-  translateStartPosition:number = 200;
-  @ViewChild('slider') slider?:ElementRef;
-  sliderHTML?:HTMLElement;
-  sliderLength:number = 0;
+  translateStartPosition: number = 200;
+  @ViewChild('slider') slider?: ElementRef;
+  sliderHTML?: HTMLElement;
+  sliderLength: number = 0;
   constructor(private productService: ProductService) {}
 
   ngOnInit(): void {
@@ -27,27 +27,24 @@ export class FeaturedProductListComponent implements OnInit,AfterViewInit {
     });
   }
 
-  ngAfterViewInit(){
+  ngAfterViewInit() {
     this.sliderHTML = this.slider?.nativeElement as HTMLElement;
   }
 
-  slideLeft(){
-    console.log(this.translateStartPosition);
-
-    if(this.sliderHTML){
-      if(this.translateStartPosition <= - this.sliderLength + 350){
+  slideLeft() {
+    if (this.sliderHTML) {
+      if (this.translateStartPosition <= -this.sliderLength + 350) {
         this.translateStartPosition = 200;
         this.sliderHTML.style.transform = `translateX(${this.translateStartPosition}px)`;
       }
       this.translateStartPosition -= 200;
       this.sliderHTML.style.transform = `translateX(${this.translateStartPosition}px)`;
     }
-
   }
 
-  slideRight(){
-    if(this.sliderHTML){
-      if(this.translateStartPosition >= 0){
+  slideRight() {
+    if (this.sliderHTML) {
+      if (this.translateStartPosition >= 0) {
         this.translateStartPosition = -200;
         this.sliderHTML.style.transform = `translateX(${this.translateStartPosition}px)`;
       }
@@ -55,5 +52,4 @@ export class FeaturedProductListComponent implements OnInit,AfterViewInit {
       this.sliderHTML.style.transform = `translateX(${this.translateStartPosition}px)`;
     }
   }
-
 }

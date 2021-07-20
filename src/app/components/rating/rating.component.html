@@ -1,9 +1,46 @@
 <div class="rating-container">
-  <ul>
-    <li><span class="icon-star-empty"></span></li>
-    <li><span class="icon-star-empty"></span></li>
-    <li><span class="icon-star-empty"></span></li>
-    <li><span class="icon-star-empty"></span></li>
-    <li><span class="icon-star-empty"></span></li>
+  <ul [ngSwitch] = "rating">
+    <div *ngSwitchCase = 0 class="star-wrraper">
+      <li><span class="icon-star-empty"></span></li>
+      <li><span class="icon-star-empty"></span></li>
+      <li><span class="icon-star-empty"></span></li>
+      <li><span class="icon-star-empty"></span></li>
+      <li><span class="icon-star-empty"></span></li>
+    </div>
+    <div *ngSwitchCase = 1 class="star-wrraper">
+      <li><span class="icon-star-full"></span></li>
+      <li><span class="icon-star-empty"></span></li>
+      <li><span class="icon-star-empty"></span></li>
+      <li><span class="icon-star-empty"></span></li>
+      <li><span class="icon-star-empty"></span></li>
+    </div>
+    <div *ngSwitchCase = 2 class="star-wrraper">
+      <li><span class="icon-star-full"></span></li>
+      <li><span class="icon-star-full"></span></li>
+      <li><span class="icon-star-empty"></span></li>
+      <li><span class="icon-star-empty"></span></li>
+      <li><span class="icon-star-empty"></span></li>
+    </div>
+    <div *ngSwitchCase = 3 class="star-wrraper">
+      <li><span class="icon-star-full"></span></li>
+      <li><span class="icon-star-full"></span></li>
+      <li><span class="icon-star-full"></span></li>
+      <li><span class="icon-star-empty"></span></li>
+      <li><span class="icon-star-empty"></span></li>
+    </div>
+    <div *ngSwitchCase = 4 class="star-wrraper">
+      <li><span class="icon-star-full"></span></li>
+      <li><span class="icon-star-full"></span></li>
+      <li><span class="icon-star-full"></span></li>
+      <li><span class="icon-star-full"></span></li>
+      <li><span class="icon-star-empty"></span></li>
+    </div>
+    <div *ngSwitchCase = 5 class="star-wrraper">
+      <li><span class="icon-star-full"></span></li>
+      <li><span class="icon-star-full"></span></li>
+      <li><span class="icon-star-full"></span></li>
+      <li><span class="icon-star-full"></span></li>
+      <li><span class="icon-star-full"></span></li>
+    </div>
   </ul>
 </div>

@@ -7,6 +7,13 @@
   justify-content: flex-start;
 }
 
+.star-wrraper{
+  position: absolute;
+  display: flex;
+  height: 40px;
+  width: 100px;
+}
+
 ul{
   position: relative;
   width: 100%;
@@ -24,6 +31,16 @@ ul li{
   width: 20px;
   height: 20px;
   background: url("/assets/icons/rating/star.svg");
+  background-repeat: no-repeat;
+  display: block;
+  margin:3px;
+}
+
+.icon-star-full{
+  position: relative;
+  width: 20px;
+  height: 20px;
+  background: url("/assets/icons/rating/star-full.svg");
   background-repeat: no-repeat;
   display: block;
   margin:3px;

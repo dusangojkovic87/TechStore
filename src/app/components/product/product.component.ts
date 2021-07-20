@@ -15,8 +15,6 @@ export class ProductComponent implements OnInit {
   ngOnInit(): void {
   }
 
-  onRate(event:Event){
-    console.log(event);
-  }
+
 
 }
