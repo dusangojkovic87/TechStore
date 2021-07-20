@@ -1,15 +1,25 @@
 <div class="product-details-view-container" *ngFor="let p of product">
   <div class="product-details-img-wrrapper">
-     <img src={{p?.img}} alt={{p?.img}}>
+    <img src="{{ p?.img }}" alt="{{ p?.img }}" />
   </div>
   <div class="product-details-wrrapper">
-    <p class="product__name">{{p?.productName}}</p>
+    <p class="product__name">{{ p?.productName }}</p>
     <div class="rating-wrrapper">
-      <app-rating [rating] ="p?.rating"></app-rating>
+      <app-rating [rating]="p?.rating"></app-rating>
       <div class="review-wrrapper">
         <span class="icon-pencil"></span>
         <a class="review__link" href="#">Write a review</a>
       </div>
+    </div>
+    <p class="product__price">
+      <span>Price:</span> {{ p?.price | currency: "EUR" }}
+    </p>
+    <div class="add-to-cart-wrrapper">
+      <form>
+        <p>Qt</p>
+        <input class="qt__input" type="text" name="qt" />
+        <button class="add__to__cart__btn">add to cart</button>
+      </form>
     </div>
   </div>
 </div>
