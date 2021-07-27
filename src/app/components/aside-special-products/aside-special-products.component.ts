@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { map } from 'rxjs/operators';
 import { Product } from 'src/app/Models/Product';
 import { ProductService } from 'src/app/Services/product.service';
@@ -11,7 +12,7 @@ import { ProductService } from 'src/app/Services/product.service';
 export class AsideSpecialProductsComponent implements OnInit {
   specialProducts?: any;
 
-  constructor(private AsideSpecialProductServise: ProductService) {}
+  constructor(private AsideSpecialProductServise: ProductService,private router:Router) {}
 
   ngOnInit(): void {
     this.AsideSpecialProductServise.getProducts()
@@ -23,5 +24,14 @@ export class AsideSpecialProductsComponent implements OnInit {
       .subscribe((data) => {
         this.specialProducts = data;
       });
+  }
+
+  redirectToDetails(id?:number){
+    console.log(id);
+
+    if(id != undefined || null){
+      this.router.navigate(['product-details',id]);
+    }
+
   }
 }

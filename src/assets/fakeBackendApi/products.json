@@ -65,7 +65,7 @@
     "price":1900.23,
     "qt":1,
     "avaliability":"in stock",
-    "rating":5,
+    "rating":4,
     "img":"/assets/images/special-products/img1.jpg",
     "specialProduct":true
 
@@ -76,7 +76,7 @@
     "price":40.50,
     "qt":1,
     "avaliability":"in stock",
-    "rating":5,
+    "rating":3,
     "img":"/assets/images/special-products/img2.png",
     "specialProduct":true
 
@@ -98,7 +98,7 @@
     "price":1245.99,
     "qt":1,
     "avaliability":"in stock",
-    "rating":5,
+    "rating":4,
     "img":"/assets/images/special-products/img4.png",
     "specialProduct":true
 
@@ -109,7 +109,7 @@
     "price":12.99,
     "qt":1,
     "avaliability":"in stock",
-    "rating":5,
+    "rating":4,
     "img":"/assets/images/special-products/img5.png",
     "specialProduct":true
 

@@ -54,11 +54,6 @@ h2{
   user-select: none;
 }
 
-.grabbing{
-  cursor: grabbing;
-}
-
-
 /*ICONS*/
 .icon-left-arrow{
   position: relative;

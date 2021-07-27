@@ -67,4 +67,8 @@ p{
   color: var(--main-light-dark);
 }
 
+app-rating{
+  margin: 0;
+}
+
 
