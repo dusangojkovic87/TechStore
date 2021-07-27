@@ -6,7 +6,8 @@
     "qt":1,
     "avaliability":"in stock",
     "rating":3,
-    "img":"/assets/images/featured/img1.jpg"
+    "img":"/assets/images/featured/img1.jpg",
+    "specialProduct":false
   },
   {
     "id":2,
@@ -15,7 +16,8 @@
     "qt":1,
     "avaliability":"in stock",
     "rating":4,
-    "img":"/assets/images/featured/img2.jpg"
+    "img":"/assets/images/featured/img2.jpg",
+    "specialProduct":false
   },
   {
     "id":3,
@@ -24,7 +26,8 @@
     "qt":1,
     "avaliability":"in stock",
     "rating":3,
-    "img":"/assets/images/featured/img3.jpg"
+    "img":"/assets/images/featured/img3.jpg",
+    "specialProduct":false
   },
   {
     "id":4,
@@ -33,7 +36,8 @@
     "qt":1,
     "avaliability":"in stock",
     "rating":3,
-    "img":"/assets/images/featured/img4.jpg"
+    "img":"/assets/images/featured/img4.jpg",
+    "specialProduct":false
   },
   {
     "id":5,
@@ -42,7 +46,8 @@
     "qt":1,
     "avaliability":"in stock",
     "rating":2,
-    "img":"/assets/images/featured/img5.png"
+    "img":"/assets/images/featured/img5.png",
+    "specialProduct":false
   },
   {
     "id":6,
@@ -51,6 +56,62 @@
     "qt":1,
     "avaliability":"in stock",
     "rating":3,
-    "img":"/assets/images/featured/img6.jpg"
+    "img":"/assets/images/featured/img6.jpg",
+    "specialProduct":false
+  },
+  {
+    "id":7,
+    "productName":"Asus 90PF02Q1-M02860",
+    "price":1900.23,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":5,
+    "img":"/assets/images/special-products/img1.jpg",
+    "specialProduct":true
+
+  },
+  {
+    "id":8,
+    "productName":"Xiaomi Mi Watch Lite",
+    "price":40.50,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":5,
+    "img":"/assets/images/special-products/img2.png",
+    "specialProduct":true
+
+  },
+  {
+    "id":9,
+    "productName":"Monitor Dell U2722D 27",
+    "price":120.99,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":5,
+    "img":"/assets/images/special-products/img3.png",
+    "specialProduct":true
+
+  },
+  {
+    "id":10,
+    "productName":"Apple MacBook Air M1 13,3",
+    "price":1245.99,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":5,
+    "img":"/assets/images/special-products/img4.png",
+    "specialProduct":true
+
+  },
+  {
+    "id":11,
+    "productName":"Razer BlackWidow",
+    "price":12.99,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":5,
+    "img":"/assets/images/special-products/img5.png",
+    "specialProduct":true
+
   }
 ]

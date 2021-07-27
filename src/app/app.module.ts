@@ -29,6 +29,7 @@ import { AsideBannerComponent } from './components/aside-banner/aside-banner.com
 import { ProductMenuComponent } from './components/product/product-menu/product-menu.component';
 import { ProductDetailsComponent } from './pages/product-details/product-details.component';
 import { ProductDetailsViewComponent } from './components/product-details-view/product-details-view.component';
+import { AsideSpecialProductsComponent } from './components/aside-special-products/aside-special-products.component';
 
 @NgModule({
   declarations: [
@@ -53,7 +54,8 @@ import { ProductDetailsViewComponent } from './components/product-details-view/p
     AsideBannerComponent,
     ProductMenuComponent,
     ProductDetailsComponent,
-    ProductDetailsViewComponent
+    ProductDetailsViewComponent,
+    AsideSpecialProductsComponent
   ],
   imports: [
     BrowserModule,

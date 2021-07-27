@@ -1,0 +1,53 @@
+[
+  {
+    "id":1,
+    "productName":"Asus 90PF02Q1-M02860",
+    "price":1900.23,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":5,
+    "img":"/assets/images/special-products/img1.jpg"
+
+  },
+  {
+    "id":2,
+    "productName":"Xiaomi Mi Watch Lite",
+    "price":40.50,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":5,
+    "img":"/assets/images/special-products/img2.png"
+
+  },
+  {
+    "id":3,
+    "productName":"Monitor Dell U2722D 27",
+    "price":120.99,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":5,
+    "img":"/assets/images/special-products/img3.png"
+
+  },
+  {
+    "id":4,
+    "productName":"Apple MacBook Air M1 13,3",
+    "price":1245.99,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":5,
+    "img":"/assets/images/special-products/img4.png"
+
+  },
+  {
+    "id":5,
+    "productName":"Razer BlackWidow",
+    "price":12.99,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":5,
+    "img":"/assets/images/special-products/img5.png"
+
+  }
+
+]

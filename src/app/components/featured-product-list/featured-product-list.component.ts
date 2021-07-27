@@ -55,7 +55,7 @@ export class FeaturedProductListComponent implements OnInit, AfterViewInit {
 
   slideRight() {
     this.currentIndex += 1;
-    if (this.currentIndex >= this.productLength - 4) {
+    if (this.currentIndex >= 2) {
       this.currentIndex = 0;
       if (this.sliderHTML) {
         this.sliderHTML.style.transform = `translateX(${

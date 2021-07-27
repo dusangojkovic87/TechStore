@@ -1,0 +1,12 @@
+<h6>Special products</h6>
+<div class="aside-special-products-container">
+    <div class="special-product-wrrapper" *ngFor="let p of specialProducts">
+      <div class="special-product-img-wrrapper">
+          <img src={{p?.img}} alt={{p?.img}}>
+      </div>
+      <div class="special-product-details-wrrapper">
+        <p class="special__product__name">{{p?.productName}}</p>
+        <p class="special__product__price">{{p?.price | currency : 'EUR'}}</p>
+      </div>
+    </div>
+</div>
