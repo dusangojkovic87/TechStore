@@ -1,10 +1,14 @@
+import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
 import {
   AfterViewInit,
   Component,
   ElementRef,
+  Input,
   OnInit,
+  QueryList,
   ViewChild,
 } from '@angular/core';
+import { Product } from 'src/app/Models/Product';
 import { ProductService } from 'src/app/Services/product.service';
 
 @Component({
@@ -14,42 +18,55 @@ import { ProductService } from 'src/app/Services/product.service';
 })
 export class FeaturedProductListComponent implements OnInit, AfterViewInit {
   products?: any;
-  translateStartPosition: number = 200;
+  productLength: number = 0;
+  currentIndex: number = 0;
   @ViewChild('slider') slider?: ElementRef;
   sliderHTML?: HTMLElement;
-  sliderLength: number = 0;
+
   constructor(private productService: ProductService) {}
 
   ngOnInit(): void {
     this.productService.getProducts().subscribe((data) => {
       this.products = data;
-      this.sliderLength = this.products.length * 250;
+      this.productLength = this.products.length;
     });
   }
 
   ngAfterViewInit() {
-    this.sliderHTML = this.slider?.nativeElement as HTMLElement;
+    if (this.slider) this.sliderHTML = this.slider.nativeElement as HTMLElement;
   }
 
   slideLeft() {
-    if (this.sliderHTML) {
-      if (this.translateStartPosition <= -this.sliderLength + 350) {
-        this.translateStartPosition = 200;
-        this.sliderHTML.style.transform = `translateX(${this.translateStartPosition}px)`;
+    this.currentIndex -= 1;
+    if (this.currentIndex <= -this.productLength) {
+      this.currentIndex = 0;
+      if (this.sliderHTML) {
+        this.sliderHTML.style.transform = `translateX(${
+          this.currentIndex * 250
+        }px)`;
       }
-      this.translateStartPosition -= 200;
-      this.sliderHTML.style.transform = `translateX(${this.translateStartPosition}px)`;
+    }
+    if (this.sliderHTML) {
+      this.sliderHTML.style.transform = `translateX(${
+        this.currentIndex * 250
+      }px)`;
     }
   }
 
   slideRight() {
-    if (this.sliderHTML) {
-      if (this.translateStartPosition >= 0) {
-        this.translateStartPosition = -200;
-        this.sliderHTML.style.transform = `translateX(${this.translateStartPosition}px)`;
+    this.currentIndex += 1;
+    if (this.currentIndex >= this.productLength - 4) {
+      this.currentIndex = 0;
+      if (this.sliderHTML) {
+        this.sliderHTML.style.transform = `translateX(${
+          this.currentIndex * 250
+        }px)`;
       }
-      this.translateStartPosition += 200;
-      this.sliderHTML.style.transform = `translateX(${this.translateStartPosition}px)`;
+    }
+    if (this.sliderHTML) {
+      this.sliderHTML.style.transform = `translateX(${
+        this.currentIndex * 250
+      }px)`;
     }
   }
 }
