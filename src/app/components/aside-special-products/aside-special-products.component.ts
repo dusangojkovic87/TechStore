@@ -22,7 +22,8 @@ export class AsideSpecialProductsComponent implements OnInit {
         })
       )
       .subscribe((data) => {
-        this.specialProducts = data;
+        let specProdLimit = data.splice(0,5);
+        this.specialProducts = specProdLimit;
       });
   }
 

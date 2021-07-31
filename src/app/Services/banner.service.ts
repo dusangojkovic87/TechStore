@@ -1,6 +1,7 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
 import { Observable } from 'rxjs';
+import { AsideBanner } from '../Models/AsideBanner';
 import { Banner } from '../Models/Banner';
 
 @Injectable({
@@ -12,5 +13,9 @@ export class BannerService {
 
   getBannerData():Observable<Banner>{
     return this.http.get<Banner>("/assets/fakeBackendApi/banner.json");
+  }
+
+  getAsideBannerData():Observable<AsideBanner>{
+    return this.http.get<AsideBanner>("/assets/fakeBackendApi/aside-banner.json");
   }
 }
