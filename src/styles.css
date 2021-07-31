@@ -9,6 +9,7 @@
   --light-green:#C1D96A;
   --light-blue:#75AABF;
   --light-border-grey:rgb(236, 235, 235);
+  --light-grey-bg:rgb(243, 242, 242);
 }
 
 
@@ -16,6 +17,10 @@
 .activeLink{
  color: var(--main-orange) !important;
  border-bottom: 2px solid var(--main-orange);
+}
+
+.activeComponentLink{
+  background-color: var(--light-grey-bg);
 }
 
 html,body{

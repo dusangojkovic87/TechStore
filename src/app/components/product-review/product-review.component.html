@@ -1,0 +1,9 @@
+<div
+  class="reviews-container"
+  *ngFor="
+    let review of reviews | paginate: { itemsPerPage: 2, currentPage: p }
+  "
+>
+  <app-review [review]="review"></app-review>
+</div>
+<pagination-controls (pageChange)="p = $event"></pagination-controls>

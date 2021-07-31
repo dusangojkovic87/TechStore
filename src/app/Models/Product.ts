@@ -7,5 +7,7 @@ export interface Product{
   rating?:number;
   img:string;
   specialProduct:boolean;
+  description:string;
+  reviews:any;
 
 }

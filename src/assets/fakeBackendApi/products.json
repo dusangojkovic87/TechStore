@@ -7,7 +7,20 @@
     "avaliability":"in stock",
     "rating":3,
     "img":"/assets/images/featured/img1.jpg",
-    "specialProduct":false
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"21/12/2021"
+      }
+    ]
   },
   {
     "id":2,
@@ -17,7 +30,20 @@
     "avaliability":"in stock",
     "rating":4,
     "img":"/assets/images/featured/img2.jpg",
-    "specialProduct":false
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"21/12/2021"
+      }
+    ]
   },
   {
     "id":3,
@@ -27,7 +53,20 @@
     "avaliability":"in stock",
     "rating":3,
     "img":"/assets/images/featured/img3.jpg",
-    "specialProduct":false
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"21/12/2021"
+      }
+    ]
   },
   {
     "id":4,
@@ -37,7 +76,20 @@
     "avaliability":"in stock",
     "rating":3,
     "img":"/assets/images/featured/img4.jpg",
-    "specialProduct":false
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"21/12/2021"
+      }
+    ]
   },
   {
     "id":5,
@@ -47,7 +99,21 @@
     "avaliability":"in stock",
     "rating":2,
     "img":"/assets/images/featured/img5.png",
-    "specialProduct":false
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"21/12/2021"
+      }
+    ]
+
   },
   {
     "id":6,
@@ -57,7 +123,22 @@
     "avaliability":"in stock",
     "rating":3,
     "img":"/assets/images/featured/img6.jpg",
-    "specialProduct":false
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"21/12/2021"
+      }
+    ]
+
+
   },
   {
     "id":7,
@@ -67,7 +148,21 @@
     "avaliability":"in stock",
     "rating":4,
     "img":"/assets/images/special-products/img1.jpg",
-    "specialProduct":true
+    "specialProduct":true,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"21/12/2021"
+      }
+    ]
+
 
   },
   {
@@ -78,7 +173,21 @@
     "avaliability":"in stock",
     "rating":3,
     "img":"/assets/images/special-products/img2.png",
-    "specialProduct":true
+    "specialProduct":true,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"21/12/2021"
+      }
+    ]
+
 
   },
   {
@@ -89,7 +198,21 @@
     "avaliability":"in stock",
     "rating":5,
     "img":"/assets/images/special-products/img3.png",
-    "specialProduct":true
+    "specialProduct":true,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"21/12/2021"
+      }
+    ]
+
 
   },
   {
@@ -100,7 +223,21 @@
     "avaliability":"in stock",
     "rating":4,
     "img":"/assets/images/special-products/img4.png",
-    "specialProduct":true
+    "specialProduct":true,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"21/12/2021"
+      }
+    ]
+
 
   },
   {
@@ -111,7 +248,21 @@
     "avaliability":"in stock",
     "rating":4,
     "img":"/assets/images/special-products/img5.png",
-    "specialProduct":true
+    "specialProduct":true,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"21/12/2021"
+      }
+    ]
+
 
   }
 ]

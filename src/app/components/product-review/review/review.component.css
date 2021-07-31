@@ -1,0 +1,39 @@
+.review-container{
+  position: relative;
+  width: 100%;
+  height:auto;
+}
+
+.review__author{
+  font-family: "Popins";
+  font-weight: bold;
+  padding-left: 1rem;
+  color: var(--main-dark);
+}
+
+.review-author-wrrapper{
+  position: relative;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.review__date{
+  font-family: "Popins";
+  font-size:0.5rem;
+  font-weight: bold;
+  margin-right: 40px;
+}
+
+.review__text{
+  font-family: "Popins";
+  font-size: 0.7rem;
+  text-align: justify;
+  padding: 1rem;
+  color: rgb(138, 132, 132);
+
+}
+
+

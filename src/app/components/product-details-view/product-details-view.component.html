@@ -14,6 +14,9 @@
     <p class="product__price">
       <span>Price:</span> {{ p?.price | currency: "EUR" }}
     </p>
+    <p class="product__avaliability">
+      <strong>Avaliability:</strong>{{ p?.avaliability }}
+    </p>
     <div class="add-to-cart-wrrapper">
       <form>
         <p>Qt</p>
@@ -21,5 +24,37 @@
         <button class="add__to__cart__btn">add to cart</button>
       </form>
     </div>
+    <div class="wishlist-wrrapper">
+      <span class="icon-wishlist"></span>
+      <button>add to wishlist</button>
+    </div>
   </div>
+</div>
+<div class="description-reviews-container" *ngFor="let i of product">
+  <div class="product-info-nav-wrrapper">
+    <ul>
+      <li
+        [ngClass]="{
+          activeComponentLink: childComponentName === 'description'
+        }"
+        (click)="loadChildComponent('description')"
+      >
+        Description
+      </li>
+      <li
+        [ngClass]="{ activeComponentLink: childComponentName === 'reviews' }"
+        (click)="loadChildComponent('reviews')"
+      >
+        Reviews
+      </li>
+    </ul>
+  </div>
+  <app-product-description
+    *ngIf="childComponentName == 'description'"
+    [description]="i?.description"
+  ></app-product-description>
+  <app-product-review
+    *ngIf="childComponentName == 'reviews'"
+    [reviews]="i?.reviews"
+  ></app-product-review>
 </div>

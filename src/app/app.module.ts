@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import {HttpClientModule} from "@angular/common/http";
+import {NgxPaginationModule} from 'ngx-pagination';
 
 
 
@@ -30,6 +31,9 @@ import { ProductMenuComponent } from './components/product/product-menu/product-
 import { ProductDetailsComponent } from './pages/product-details/product-details.component';
 import { ProductDetailsViewComponent } from './components/product-details-view/product-details-view.component';
 import { AsideSpecialProductsComponent } from './components/aside-special-products/aside-special-products.component';
+import { ProductDescriptionComponent } from './components/product-description/product-description.component';
+import { ProductReviewComponent } from './components/product-review/product-review.component';
+import { ReviewComponent } from './components/product-review/review/review.component';
 
 @NgModule({
   declarations: [
@@ -55,12 +59,19 @@ import { AsideSpecialProductsComponent } from './components/aside-special-produc
     ProductMenuComponent,
     ProductDetailsComponent,
     ProductDetailsViewComponent,
-    AsideSpecialProductsComponent
+    AsideSpecialProductsComponent,
+    ProductDescriptionComponent,
+    ProductReviewComponent,
+    ReviewComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    HttpClientModule
+    HttpClientModule,
+    NgxPaginationModule
+  ],
+  exports:[
+    NgxPaginationModule
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   providers: [],

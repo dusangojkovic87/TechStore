@@ -14,3 +14,9 @@
   display: flex;
   flex-direction: column;
 }
+
+@media only screen and (max-width:970px){
+  .aside-container{
+    display: none;
+  }
+}

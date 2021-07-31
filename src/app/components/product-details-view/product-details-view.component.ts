@@ -7,12 +7,16 @@ import { Product } from 'src/app/Models/Product';
   styleUrls: ['./product-details-view.component.css']
 })
 export class ProductDetailsViewComponent implements OnInit {
+  childComponentName:string = 'description';
   @Input('product') product:Product[] = [];
 
   constructor() { }
 
   ngOnInit(): void {
-    console.log(this.product);
+  }
+
+  loadChildComponent(componentName:string){
+    this.childComponentName = componentName;
 
   }
 
