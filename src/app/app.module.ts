@@ -34,6 +34,7 @@ import { AsideSpecialProductsComponent } from './components/aside-special-produc
 import { ProductDescriptionComponent } from './components/product-description/product-description.component';
 import { ProductReviewComponent } from './components/product-review/product-review.component';
 import { ReviewComponent } from './components/product-review/review/review.component';
+import { AddReviewComponent } from './components/add-review/add-review.component';
 
 @NgModule({
   declarations: [
@@ -62,7 +63,8 @@ import { ReviewComponent } from './components/product-review/review/review.compo
     AsideSpecialProductsComponent,
     ProductDescriptionComponent,
     ProductReviewComponent,
-    ReviewComponent
+    ReviewComponent,
+    AddReviewComponent
   ],
   imports: [
     BrowserModule,
