@@ -2,6 +2,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import {HttpClientModule} from "@angular/common/http";
 import {NgxPaginationModule} from 'ngx-pagination';
+import { SwiperModule } from 'swiper/angular';
+
 
 
 
@@ -35,6 +37,8 @@ import { ProductDescriptionComponent } from './components/product-description/pr
 import { ProductReviewComponent } from './components/product-review/product-review.component';
 import { ReviewComponent } from './components/product-review/review/review.component';
 import { AddReviewComponent } from './components/add-review/add-review.component';
+import { ClientAsideReviewListComponent } from './components/client-aside-review-list/client-aside-review-list.component';
+import { ClientReviewComponent } from './components/client-review/client-review.component';
 
 @NgModule({
   declarations: [
@@ -64,16 +68,20 @@ import { AddReviewComponent } from './components/add-review/add-review.component
     ProductDescriptionComponent,
     ProductReviewComponent,
     ReviewComponent,
-    AddReviewComponent
+    AddReviewComponent,
+    ClientAsideReviewListComponent,
+    ClientReviewComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
-    NgxPaginationModule
+    NgxPaginationModule,
+    SwiperModule
   ],
   exports:[
-    NgxPaginationModule
+    NgxPaginationModule,
+    SwiperModule
   ],
   schemas: [ CUSTOM_ELEMENTS_SCHEMA ],
   providers: [],

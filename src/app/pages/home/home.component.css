@@ -20,6 +20,15 @@ app-featured-product-list{
   margin-top: 40px;
 }
 
+.client__review__heading{
+  position: relative;
+  width: 100%;
+  font-family: "Popins";
+  font-size:1rem;
+  margin-left: 10px;
+  color: var(--main-dark);
+}
+
 
 
 

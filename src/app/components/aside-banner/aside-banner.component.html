@@ -1,7 +1,7 @@
 <div class="aside-banner-container" *ngFor="let b of asideBannerData">
-  <img src={{b?.img}} alt={{b?.img}}>
+  <img src="{{ b?.img }}" alt="{{ b?.img }}" />
   <div class="aside-banner-text-wrrapper">
-    <p class="aside__banner__text">Get up to {{b?.salePercent}} % off</p>
-    <p class="aside__banner__category">{{b?.productCategory}}</p>
+    <p class="aside__banner__text">Get up to {{ b?.salePercent }} % off</p>
+    <p class="aside__banner__category">{{ b?.productCategory }}</p>
   </div>
 </div>

@@ -1,0 +1,7 @@
+<div class="client-review-aside-list-container">
+    <swiper>
+      <ng-template swiperSlide *ngFor="let review of reviews">
+       <app-client-review [review] = "review"></app-client-review>
+      </ng-template>
+    </swiper>
+</div>
