@@ -1,0 +1,39 @@
+.banner-list-bottom-container{
+  position: relative;
+  width: 100%;
+  display: flex;
+  height: 200px;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+
+}
+
+.red-banner{
+  background-color: var(--light-red);
+  border-radius: 20px;
+  width:45%;
+}
+
+.blue-banner{
+  background-color: var(--dark-blue);
+  border-radius:20px;
+  width:45%;
+}
+
+@media only screen and (max-width:630px){
+  .banner-list-bottom-container{
+    flex-direction: column;
+    height:500px;
+    align-items: center;
+  }
+
+  .red-banner{
+    width: 90%;
+  }
+
+  .blue-banner{
+   width: 90%;
+ }
+ }
+

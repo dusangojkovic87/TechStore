@@ -18,4 +18,9 @@ export class BannerService {
   getAsideBannerData():Observable<AsideBanner>{
     return this.http.get<AsideBanner>("/assets/fakeBackendApi/aside-banner.json");
   }
+
+  getBannerBottomData():Observable<Banner>{
+    return this.http.get<Banner>("/assets/fakeBackendApi/bannerBottom.json");
+
+  }
 }

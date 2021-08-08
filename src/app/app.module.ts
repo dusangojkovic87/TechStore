@@ -39,6 +39,7 @@ import { ReviewComponent } from './components/product-review/review/review.compo
 import { AddReviewComponent } from './components/add-review/add-review.component';
 import { ClientAsideReviewListComponent } from './components/client-aside-review-list/client-aside-review-list.component';
 import { ClientReviewComponent } from './components/client-review/client-review.component';
+import { BannerListBottomComponent } from './components/banner-list-bottom/banner-list-bottom.component';
 
 @NgModule({
   declarations: [
@@ -70,7 +71,8 @@ import { ClientReviewComponent } from './components/client-review/client-review.
     ReviewComponent,
     AddReviewComponent,
     ClientAsideReviewListComponent,
-    ClientReviewComponent
+    ClientReviewComponent,
+    BannerListBottomComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,8 @@
+<div class="banner-list-bottom-container">
+  <ng-container *ngFor="let b of bannerData; let i = index">
+    <app-banner
+      [ngClass]="i % 2 == 0 ? 'red-banner' : 'blue-banner'"
+      [bannerItem]="b"
+    ></app-banner>
+  </ng-container>
+</div>
