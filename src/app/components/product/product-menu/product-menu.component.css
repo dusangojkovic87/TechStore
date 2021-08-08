@@ -34,6 +34,7 @@
   height: 20px;
   background: url("/assets/icons/product-menu/cart.svg");
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .icon-eye{
@@ -43,6 +44,7 @@
   height: 20px;
   background: url("/assets/icons/product-menu/eye.svg");
   background-repeat: no-repeat;
+  cursor: pointer;
 }
 
 .icon-wishlist{
@@ -52,4 +54,5 @@
   height: 20px;
   background: url("/assets/icons/product-menu/wishlist.svg");
   background-repeat: no-repeat;
+  cursor: pointer;
 }

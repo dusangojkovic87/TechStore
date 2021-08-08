@@ -1,0 +1,58 @@
+.special-product-container{
+  position: relative;
+  width:100%;
+  height: 250px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid var(--light-border-grey);
+}
+
+.special-product-img-wrrapper{
+  position: relative;
+  width:50%;
+  height: 100%;
+}
+
+.special-product-img-wrrapper img{
+  position: relative;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.special-product-details-wrrapper{
+  position: relative;
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+app-rating{
+  position: relative;
+  margin-left: -40px;
+}
+
+app-product-menu{
+  position: relative;
+  margin-left: -15px;
+}
+
+p{
+  font-family: "Popins";
+  font-size:1.4rem;
+  margin: 0;
+}
+
+.special__product__name{
+ font-weight: bold;
+ margin-bottom: 0.6rem;
+}
+
+.special__product__price{
+  margin-bottom: 0.5rem;
+
+}
+

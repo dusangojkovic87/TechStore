@@ -1,0 +1,12 @@
+<h2>Special products</h2>
+<div class="special-product-list-container">
+  <swiper [slidesPerView]="1">
+    <ng-template
+      class="swiper-slide"
+      swiperSlide
+      *ngFor="let product of specialProduct"
+    >
+      <app-special-product [product]="product"></app-special-product>
+    </ng-template>
+  </swiper>
+</div>

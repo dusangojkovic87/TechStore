@@ -1,0 +1,13 @@
+<div class="special-product-container">
+  <div class="special-product-img-wrrapper">
+    <img src="{{ product?.img }}" alt="{{ product?.img }}" />
+  </div>
+  <div class="special-product-details-wrrapper">
+    <app-rating [rating]="product?.rating"></app-rating>
+    <p class="special__product__name">{{ product?.productName }}</p>
+    <p class="special__product__price">
+      {{ product?.price | currency: "EUR" }}
+    </p>
+    <app-product-menu></app-product-menu>
+  </div>
+</div>
