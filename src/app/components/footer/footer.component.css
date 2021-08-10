@@ -1,8 +1,10 @@
 .footer-container{
   position: relative;
   width: 100%;
-  height: 400px;
-  background-color: var(--dark-grey);
+  height:500px;
+  display: flex;
+  flex-direction: column;
+ /*  background-color: var(--dark-grey); */
 }
 
 .footer-sub-heading-wrrapper{
@@ -85,11 +87,136 @@
   background-repeat: no-repeat;
 }
 
+.footer-info-container{
+  position: relative;
+  top: 100px;
+  width: 100%;
+  height: 300px;
+  background-color: var(--dark-grey);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-item{
+  position: relative;
+  width: 23%;
+  height:200px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+}
+
+.info__heading{
+  font-family: "Popins";
+  font-size: 0.9rem;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+ul{
+  padding: 0;
+}
+
+ul li{
+  list-style: none;
+  font-family: "Popins";
+  font-size: 0.8rem;
+  color: grey;
+  padding: 0.3rem;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+ul li:hover{
+  color: var(--main-orange);
+}
+
+ul li:hover .icon-right-arrow::before{
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  content: url("/assets/icons/footer/right-arrow-orange.svg");
+}
+
+.icon-right-arrow{
+  position: relative;
+  width: 15px;
+  height: 15px;
+  background: url("/assets/icons/footer/right-arrow.svg");
+  background-repeat: no-repeat;
+  display: block;
+}
+
+.footer-bottom-info{
+  position: relative;
+  width: 100%;
+  height: 100px;
+  border-top: 1px solid white;
+  background-color:var(--dark-grey);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex: 1;
+  margin-top: 100px;
+}
+
+.bottom-info-item{
+  position: relative;
+  width:25%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+h6{
+  font-family: "Popins";
+  font-size: 1.5rem;
+  color: white;
+}
+
+h6::first-letter{
+  color: var(--main-orange);
+  font-style: italic;
+}
+
+.footer__copyright{
+  font-family: "Popins";
+  color:grey;
+  font-size: 0.7rem;
+}
+
 @media only screen and (max-width:800px){
+  .footer-info-container{
+    top: 150px;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    height: auto;
+    flex: 1;
+  }
+
+  .info-item{
+    width: 70%;
+    height: auto;
+    align-items: flex-start;
+    padding-left: 50px;
+  }
+
   .footer-subscribe-container{
     height:150px;
     flex-direction: column;
     align-items: flex-start;
+  }
+
+  /*KLASA ZA TOGGLE FOOTER ITEM IZMENI*/
+
+  .info{
+    display: none;
   }
 
   .footer-sub-heading-wrrapper{
@@ -109,5 +236,9 @@
   .sub__input{
     width:60%;
     margin-left: 20px;
+  }
+
+  .footer-bottom-info{
+    margin-top:150px;
   }
 }
