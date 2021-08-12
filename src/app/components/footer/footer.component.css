@@ -56,6 +56,7 @@
 
 }
 
+
 .sub__btn{
   position: relative;
   width: 100px;
@@ -108,6 +109,13 @@
   flex-direction: column;
 }
 
+.heading-info-wrrapper{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
 .info__heading{
   font-family: "Popins";
   font-size: 0.9rem;
@@ -151,6 +159,16 @@ ul li:hover .icon-right-arrow::before{
   display: block;
 }
 
+.icon-arrow-down{
+  position: relative;
+  width: 15px;
+  height: 15px;
+  background: url("/assets/icons/footer/arrow-down.svg");
+  background-repeat: no-repeat;
+  display: block;
+  cursor: pointer;
+}
+
 .footer-bottom-info{
   position: relative;
   width: 100%;
@@ -190,6 +208,14 @@ h6::first-letter{
   font-size: 0.7rem;
 }
 
+.show--arrow{
+  display: none;
+}
+
+.info{
+  display: block;
+}
+
 @media only screen and (max-width:800px){
   .footer-info-container{
     top: 150px;
@@ -205,6 +231,10 @@ h6::first-letter{
     height: auto;
     align-items: flex-start;
     padding-left: 50px;
+  }
+
+  .heading-info-wrrapper{
+    justify-content: space-between;
   }
 
   .footer-subscribe-container{
@@ -240,5 +270,9 @@ h6::first-letter{
 
   .footer-bottom-info{
     margin-top:150px;
+  }
+
+  .show--arrow{
+    display: block;
   }
 }

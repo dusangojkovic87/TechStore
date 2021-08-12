@@ -16,16 +16,28 @@
   </div>
   <div class="footer-info-container">
     <div class="info-item">
-      <p class="info__heading">Quick information</p>
-      <ul class="info">
+      <div class="heading-info-wrrapper">
+        <p class="info__heading">Quick information</p>
+        <span
+          (click)="toggleFooterInfo(info1)"
+          class="icon-arrow-down show--arrow"
+        ></span>
+      </div>
+      <ul #info1 class="info">
         <li>Adress: TechStore,St.Peter.England</li>
         <li>Phone: +01 2222 365 /(+91) 01 2345 6789</li>
         <li>Mail: someemail@gmail.com</li>
       </ul>
     </div>
     <div class="info-item">
-      <p class="info__heading">About</p>
-      <ul class="info">
+      <div class="heading-info-wrrapper">
+        <p class="info__heading">About</p>
+        <span
+          (click)="toggleFooterInfo(info2)"
+          class="icon-arrow-down show--arrow"
+        ></span>
+      </div>
+      <ul #info2 class="info">
         <li><span class="icon-right-arrow"></span>About us</li>
         <li><span class="icon-right-arrow"></span>Delivery Information</li>
         <li><span class="icon-right-arrow"></span>Privacy Policy</li>
@@ -34,8 +46,14 @@
       </ul>
     </div>
     <div class="info-item">
-      <p class="info__heading">Policy</p>
-      <ul class="info">
+      <div class="heading-info-wrrapper">
+        <p class="info__heading">Policy</p>
+        <span
+          (click)="toggleFooterInfo(info3)"
+          class="icon-arrow-down show--arrow"
+        ></span>
+      </div>
+      <ul #info3 class="info">
         <li><span class="icon-right-arrow"></span>Policy information</li>
       </ul>
     </div>
