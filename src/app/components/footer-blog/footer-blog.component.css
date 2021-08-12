@@ -1,0 +1,38 @@
+.footer-blog-container{
+  position: relative;
+  width: 130px;
+  height: 130px;
+  overflow: hidden;
+}
+
+.footer-blog-container img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.footer__blog__heading{
+  position: absolute;
+  background-color: var(--main-orange);
+  bottom: 0;
+  left: 0;
+  font-family: "Popins";
+  font-size: 0.7rem;
+  width: 100%;
+  height: auto;
+  padding-left: 2px;
+}
+
+.blog__details__btn{
+  position: relative;
+  width:130px;
+  background-color: var(--main-orange);
+  color: white;
+  font-family: "Popins";
+  font-size: 0.7rem;
+  height:20px;
+  border: none;
+  cursor: pointer;
+}

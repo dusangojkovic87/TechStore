@@ -43,6 +43,12 @@ import { BannerListBottomComponent } from './components/banner-list-bottom/banne
 import { SpecialProductListComponent } from './components/special-product-list/special-product-list.component';
 import { SpecialProductComponent } from './components/special-product/special-product.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { FooterBlogComponent } from './components/footer-blog/footer-blog.component';
+import { BlogComponent } from './pages/blog/blog.component';
+import { NewCollectionComponent } from './pages/new-collection/new-collection.component';
+import { SpecialsComponent } from './pages/specials/specials.component';
+import { ContactComponent } from './pages/contact/contact.component';
+import { BlogDetailsComponent } from './pages/blog/blog-details/blog-details.component';
 
 @NgModule({
   declarations: [
@@ -78,7 +84,13 @@ import { FooterComponent } from './components/footer/footer.component';
     BannerListBottomComponent,
     SpecialProductListComponent,
     SpecialProductComponent,
-    FooterComponent
+    FooterComponent,
+    FooterBlogComponent,
+    BlogComponent,
+    NewCollectionComponent,
+    SpecialsComponent,
+    ContactComponent,
+    BlogDetailsComponent
   ],
   imports: [
     BrowserModule,

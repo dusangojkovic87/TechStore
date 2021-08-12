@@ -1,4 +1,6 @@
 import { Component, ElementRef, OnInit } from '@angular/core';
+import { Blog } from 'src/app/Models/Blog';
+import { BlogService } from 'src/app/Services/blog.service';
 
 @Component({
   selector: 'app-footer',
@@ -6,11 +8,18 @@ import { Component, ElementRef, OnInit } from '@angular/core';
   styleUrls: ['./footer.component.css']
 })
 export class FooterComponent implements OnInit {
+  blogs:any;
 
 
-  constructor() { }
+  constructor(private blogSevise:BlogService) { }
 
   ngOnInit(): void {
+    this.blogSevise.getBlogs().subscribe(data =>{
+      if(data)
+        this.blogs = data;
+    })
+
+
   }
 
   toggleFooterInfo(element:HTMLUListElement){

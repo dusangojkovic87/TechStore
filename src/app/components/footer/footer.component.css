@@ -216,6 +216,31 @@ h6::first-letter{
   display: block;
 }
 
+.blog-wrrapper{
+  position: relative;
+  width: 100px;
+  height: 100px;
+}
+
+.blog-wrrapper img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-container{
+  width: 150px;
+  height: 170px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.blog-item{
+  position: relative;
+  width: 200px;
+  height: 220px !important;
+}
+
 @media only screen and (max-width:800px){
   .footer-info-container{
     top: 150px;

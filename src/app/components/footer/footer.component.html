@@ -57,8 +57,16 @@
         <li><span class="icon-right-arrow"></span>Policy information</li>
       </ul>
     </div>
-    <div class="info-item">
+    <div class="info-item blog-item">
       <p class="info__heading">From the Blog</p>
+      <div class="blog-wrrapper">
+        <swiper [slidesPerView] = "1">
+            <ng-template swiperSlide *ngFor="let b of blogs">
+                <app-footer-blog [blog] = "b"></app-footer-blog>
+            </ng-template>
+        </swiper>
+
+      </div>
     </div>
   </div>
   <div class="footer-bottom-info">
@@ -73,3 +81,5 @@
     </div>
   </div>
 </div>
+
+

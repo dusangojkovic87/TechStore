@@ -1,0 +1,7 @@
+<div class="footer-blog-container">
+  <img src="{{ blog?.img }}" alt="{{ blog?.img }}" />
+  <p class="footer__blog__heading">{{ blog?.blogHeading | slice: 0:17 }}</p>
+</div>
+<button (click)="redirectToBlogDetails(blog?.id)" class="blog__details__btn">
+  read more
+</button>
