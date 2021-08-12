@@ -1,46 +1,16 @@
-.home-page{
-  position: relative;
-  width: 100%;
-  display: flex;
-}
-
-.main-home-page-container{
-  position: relative;
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-.aside-home-page-container{
-  position: relative;
-  width: 300px;
-}
 
 app-featured-product-list{
   position: relative;
   margin-top: 40px;
 }
 
-.client__review__heading{
-  position: relative;
-  width: 100%;
-  font-family: "Popins";
-  font-size:1rem;
-  margin-left: 10px;
-  color: var(--main-dark);
-}
-
-
-
-
-
 @media only screen and (max-width:970px){
-  .home-page{
+  .page-container{
     justify-content: center;
   }
 
 
-  .aside-home-page-container{
+  .aside-page-container{
     display: none;
   }
 }
