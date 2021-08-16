@@ -1,0 +1,13 @@
+<div class="blog-post-container">
+  <div class="blog-img-wrrapper">
+    <p class="blog__date">{{blog?.blogDate}}</p>
+    <img src={{blog?.img}} alt={{blog?.img}} />
+  </div>
+  <div class="blog-details">
+    <p class="blog__heading">{{blog?.blogHeading}}</p>
+    <p class="blog__text">
+      {{blog?.blogText | slice:0:250}}...
+    </p>
+    <button class="read__more__btn">read more</button>
+  </div>
+</div>

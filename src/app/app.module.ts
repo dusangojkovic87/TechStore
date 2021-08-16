@@ -1,7 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
+import {NgxPaginationModule} from 'ngx-pagination';
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import {HttpClientModule} from "@angular/common/http";
-import {NgxPaginationModule} from 'ngx-pagination';
 import { SwiperModule } from 'swiper/angular';
 
 
@@ -49,6 +49,7 @@ import { NewCollectionComponent } from './pages/new-collection/new-collection.co
 import { SpecialsComponent } from './pages/specials/specials.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { BlogDetailsComponent } from './pages/blog/blog-details/blog-details.component';
+import { BlogPostComponent } from './components/blog-post/blog-post.component';
 
 @NgModule({
   declarations: [
@@ -90,7 +91,8 @@ import { BlogDetailsComponent } from './pages/blog/blog-details/blog-details.com
     NewCollectionComponent,
     SpecialsComponent,
     ContactComponent,
-    BlogDetailsComponent
+    BlogDetailsComponent,
+    BlogPostComponent
   ],
   imports: [
     BrowserModule,

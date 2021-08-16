@@ -1,12 +1,22 @@
 <div class="page-container">
   <div class="aside-page-container">
-   <app-aside-category-nav></app-aside-category-nav>
-   <app-aside-special-products></app-aside-special-products>
-   <app-aside-banner></app-aside-banner>
-   <h5 class="client__review__heading">Clients Say?</h5>
-   <app-client-aside-review-list></app-client-aside-review-list>
+    <app-aside-category-nav></app-aside-category-nav>
   </div>
   <div class="main-page-inner-container">
-  main
+    <div class="blog-container">
+      <div class="blog-wrrapper"
+        *ngFor="
+          let blog of blogs | paginate: { itemsPerPage: 2, currentPage: p }
+        "
+      >
+        <app-blog-post [blog]="blog"></app-blog-post>
+      </div>
+    </div>
+    <pagination-controls
+      class="my-pagination"
+      [responsive]="true"
+      (pageChange)="p = $event"
+    ></pagination-controls>
   </div>
- </div>
+</div>
+<app-footer></app-footer>
