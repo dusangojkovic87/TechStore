@@ -13,4 +13,9 @@ export class ProductService {
   getProducts():Observable<Product>{
     return this.http.get<Product>("/assets/fakeBackendApi/products.json");
   }
+
+  getNewCollection():Observable<Product>{
+    return this.http.get<Product>("/assets/fakeBackendApi/new-collection.json");
+
+  }
 }

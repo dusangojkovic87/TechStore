@@ -12,7 +12,10 @@ import { ProductService } from 'src/app/Services/product.service';
 export class AsideSpecialProductsComponent implements OnInit {
   specialProducts?: any;
 
-  constructor(private AsideSpecialProductServise: ProductService,private router:Router) {}
+  constructor(
+    private AsideSpecialProductServise: ProductService,
+    private router: Router
+  ) {}
 
   ngOnInit(): void {
     this.AsideSpecialProductServise.getProducts()
@@ -22,17 +25,16 @@ export class AsideSpecialProductsComponent implements OnInit {
         })
       )
       .subscribe((data) => {
-        let specProdLimit = data.splice(0,5);
+        let specProdLimit = data.splice(0, 5);
         this.specialProducts = specProdLimit;
       });
   }
 
-  redirectToDetails(id?:number){
+  redirectToDetails(id?: number) {
     console.log(id);
 
-    if(id != undefined || null){
-      this.router.navigate(['product-details',id]);
+    if (id != undefined || null) {
+      this.router.navigate(['product-details', id]);
     }
-
   }
 }
