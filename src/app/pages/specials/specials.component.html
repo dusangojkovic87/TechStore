@@ -1,12 +1,18 @@
 <div class="page-container">
   <div class="aside-page-container">
    <app-aside-category-nav></app-aside-category-nav>
-   <app-aside-special-products></app-aside-special-products>
-   <app-aside-banner></app-aside-banner>
-   <h5 class="client__review__heading">Clients Say?</h5>
-   <app-client-aside-review-list></app-client-aside-review-list>
   </div>
   <div class="main-page-inner-container">
-  main
+    <div class="specials-container">
+      <div class="special-product-wrrapper" *ngFor="let product of specialProducts | paginate: { itemsPerPage:3, currentPage: p }">
+        <app-product [product] = "product"></app-product>
+      </div>
+    </div>
+    <pagination-controls
+    class="my-pagination"
+    [responsive]="true"
+    (pageChange)="p = $event"
+  ></pagination-controls>
   </div>
  </div>
+ <app-footer></app-footer>
