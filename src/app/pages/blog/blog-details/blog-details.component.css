@@ -1,0 +1,36 @@
+.blog-img-wrrapper{
+  position: relative;
+  width: 100%;
+  height: 300px;
+}
+
+.blog-img-wrrapper img{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.blog__heading{
+  font-family: "Popins";
+  font-size: 1.4rem;
+  text-align: center;
+  color: var(--main-orange);
+}
+
+.blog-text-wrrapper{
+  width: 100%;
+  height: auto;
+  margin-top: 30px;
+}
+
+.blog__text{
+  font-family: "Popins";
+  font-size: 1rem;
+  color: var(--light-grey-bg-3);
+  padding: 1rem;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  text-align: justify;
+}
+

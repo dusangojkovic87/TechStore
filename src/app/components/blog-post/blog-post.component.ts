@@ -1,4 +1,5 @@
 import { Component, Input, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Blog } from 'src/app/Models/Blog';
 
 @Component({
@@ -9,9 +10,14 @@ import { Blog } from 'src/app/Models/Blog';
 export class BlogPostComponent implements OnInit {
   @Input('blog') blog?:Blog;
 
-  constructor() { }
+  constructor(private router:Router) { }
 
   ngOnInit(): void {
+  }
+
+  blogDetails(id?:number){
+    if(id)
+      this.router.navigate(['blog',id]);
   }
 
 }

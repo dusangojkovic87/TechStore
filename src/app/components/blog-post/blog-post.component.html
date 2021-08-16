@@ -8,6 +8,6 @@
     <p class="blog__text">
       {{blog?.blogText | slice:0:250}}...
     </p>
-    <button class="read__more__btn">read more</button>
+    <button (click) = "blogDetails(blog?.id)" class="read__more__btn">read more</button>
   </div>
 </div>
