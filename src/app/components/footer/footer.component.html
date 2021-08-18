@@ -4,8 +4,9 @@
       <span class="icon-letter"></span>
       <h1 class="sub__heading">Subscribe to newsletter</h1>
     </div>
-    <form class="subscribe__form">
+    <form [formGroup] = "subscribeForm" (ngSubmit) = "subscribe(subscribeForm)" class="subscribe__form">
       <input
+        formControlName="Email"
         class="sub__input"
         type="text"
         name="Email"

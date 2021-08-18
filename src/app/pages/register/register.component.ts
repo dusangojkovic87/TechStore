@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-register',
@@ -22,7 +23,8 @@ export class RegisterComponent implements OnInit {
 
   register(registerData: FormGroup) {
     if (!registerData.valid) {
-      console.log(registerData.value);
+     Swal.fire("Registered!");
+     this.registerForm.reset();
     }
   }
 }
