@@ -54,6 +54,7 @@ import { BlogDetailsComponent } from './pages/blog/blog-details/blog-details.com
 import { BlogPostComponent } from './components/blog-post/blog-post.component';
 import { LoginComponent } from './pages/login/login.component';
 import { RegisterComponent } from './pages/register/register.component';
+import { WishlistComponent } from './pages/wishlist/wishlist.component';
 
 @NgModule({
   declarations: [
@@ -98,7 +99,8 @@ import { RegisterComponent } from './pages/register/register.component';
     BlogDetailsComponent,
     BlogPostComponent,
     LoginComponent,
-    RegisterComponent
+    RegisterComponent,
+    WishlistComponent
   ],
   imports: [
     BrowserModule,

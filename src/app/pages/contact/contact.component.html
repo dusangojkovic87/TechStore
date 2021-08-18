@@ -39,18 +39,23 @@
     <div class="message-container">
       <h6>Contact us</h6>
       <div class="message-form-wrrapper">
-        <form>
+        <form [formGroup]="messageForm" (ngSubmit)="sendMessage(messageForm)">
           <div class="form-group">
             <label for="Name">Name</label>
-            <input type="text" name="Name" />
+            <input formControlName="Name" type="text" name="Name" />
           </div>
           <div class="form-group">
             <label for="Name">Email</label>
-            <input type="text" name="Email" />
+            <input formControlName="Email" type="text" name="Email" />
           </div>
           <div class="form-group">
             <label for="Name">Message</label>
-           <textarea name="Message" cols="30" rows="10"></textarea>
+            <textarea
+              formControlName="Message"
+              name="Message"
+              cols="30"
+              rows="10"
+            ></textarea>
           </div>
           <button class="sub__msg__btn">Submit</button>
         </form>

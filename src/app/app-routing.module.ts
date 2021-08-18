@@ -9,6 +9,8 @@ import { NewCollectionComponent } from './pages/new-collection/new-collection.co
 import { ProductDetailsComponent } from './pages/product-details/product-details.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { SpecialsComponent } from './pages/specials/specials.component';
+import { WishlistComponent } from './pages/wishlist/wishlist.component';
+
 
 const routes: Routes = [
   {path:'',redirectTo:'/home',pathMatch:'full'},
@@ -20,6 +22,7 @@ const routes: Routes = [
   {path:'contact',component:ContactComponent},
   {path:'blog',component:BlogComponent},
   {path:'blog/:id',component:BlogDetailsComponent},
+  {path:'wishlist',component:WishlistComponent},
   {path:'product-details/:id',component:ProductDetailsComponent}
 ];
 
