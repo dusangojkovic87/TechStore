@@ -3,6 +3,8 @@ import {NgxPaginationModule} from 'ngx-pagination';
 import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
 import {HttpClientModule} from "@angular/common/http";
 import { SwiperModule } from 'swiper/angular';
+import {FormsModule,ReactiveFormsModule} from "@angular/forms";
+import {CommonModule} from "@angular/common";
 
 
 
@@ -50,6 +52,8 @@ import { SpecialsComponent } from './pages/specials/specials.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { BlogDetailsComponent } from './pages/blog/blog-details/blog-details.component';
 import { BlogPostComponent } from './components/blog-post/blog-post.component';
+import { LoginComponent } from './pages/login/login.component';
+import { RegisterComponent } from './pages/register/register.component';
 
 @NgModule({
   declarations: [
@@ -92,14 +96,19 @@ import { BlogPostComponent } from './components/blog-post/blog-post.component';
     SpecialsComponent,
     ContactComponent,
     BlogDetailsComponent,
-    BlogPostComponent
+    BlogPostComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
     NgxPaginationModule,
-    SwiperModule
+    SwiperModule,
+    FormsModule,
+    ReactiveFormsModule,
+    CommonModule
   ],
   exports:[
     NgxPaginationModule,

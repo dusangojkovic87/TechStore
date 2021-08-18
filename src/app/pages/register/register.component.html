@@ -1,0 +1,55 @@
+<div class="register-container">
+  <form [formGroup]="registerForm" (ngSubmit)="register(registerForm)">
+    <div
+      class="error-wrrapper"
+      *ngIf="
+        (registerForm.get('Email').touched &&
+          registerForm.get('Email').hasError('required')) ||
+        (registerForm.get('Password').touched &&
+          registerForm.get('Password').hasError('required')) ||
+        (registerForm.get('Name').touched &&
+          registerForm.get('Name').hasError('required')) ||
+        (registerForm.get('Surname').touched &&
+          registerForm.get('Surname').hasError('required'))
+      "
+    >
+      <p class="validation__message">*Fields cannot be empty</p>
+    </div>
+    <input
+      formControlName="Name"
+      type="text"
+      name="Name"
+      placeholder="Name.."
+    />
+    <input
+      formControlName="Surname"
+      type="text"
+      name="Surname"
+      placeholder="Surname.."
+    />
+    <input
+      formControlName="Email"
+      type="text"
+      name="Email"
+      placeholder="Email.."
+    />
+    <div
+      class="error-wrrapper"
+      *ngIf="
+        registerForm.get('Email').touched &&
+        registerForm.get('Email').hasError('email')
+      "
+    >
+      <p class="validation__message">*Email is not valid</p>
+    </div>
+    <input
+      autocomplete="on"
+      formControlName="Password"
+      type="password"
+      name="Password"
+      placeholder="Password.."
+    />
+    <button class="register__btn" type="submit">Register</button>
+  </form>
+</div>
+<app-footer></app-footer>

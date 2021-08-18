@@ -1,0 +1,47 @@
+<div class="login-container">
+  <form [formGroup]="loginForm" (ngSubmit)="login(loginForm)">
+    <div
+      class="error-wrrapper"
+      *ngIf="
+        (loginForm.get('Email').touched &&
+          loginForm.get('Email').hasError('required')) ||
+        (loginForm.get('Password').touched &&
+          loginForm.get('Password').hasError('required'))
+      "
+    >
+      <p class="validation__message">*Fields cannot be empty</p>
+    </div>
+    <input
+      [ngClass]="{
+        'border-alert':
+          loginForm.get('Email').touched &&
+          loginForm.get('Email').hasError('email')
+      }"
+      formControlName="Email"
+      type="text"
+      name="Email"
+      placeholder="Email.."
+    />
+    <div
+      class="error-wrrapper"
+      *ngIf="
+        loginForm.get('Email').touched &&
+        loginForm.get('Email').hasError('email')
+      "
+    >
+      <p class="validation__message">*Email is not valid</p>
+    </div>
+    <input
+      formControlName="Password"
+      type="password"
+      name="Password"
+      placeholder="Password.."
+      autocomplete="on"
+    />
+    <button class="login__btn" type="submit">Login</button>
+    <a class="register__link" routerLink="register"
+      >Not registered?Register first</a
+    >
+  </form>
+</div>
+<app-footer></app-footer>
