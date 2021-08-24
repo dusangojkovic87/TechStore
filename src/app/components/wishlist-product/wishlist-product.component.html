@@ -1,0 +1,11 @@
+<div class="wishlist-product">
+  <div class="wishlist-img-wrrapper">
+    <img src={{wishlistProduct?.img}} alt={{wishlistProduct?.img}} />
+  </div>
+  <div class="wishlist-product-details">
+    <p class="product__name">{{wishlistProduct?.productName}}</p>
+    <p class="product__price">{{wishlistProduct?.price}}</p>
+    <app-rating [rating]="wishlistProduct?.rating"></app-rating>
+    <button (click) = "deleteFromWishlist(wishlistProduct?.id)">remove from wishlist</button>
+  </div>
+</div>

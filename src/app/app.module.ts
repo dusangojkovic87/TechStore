@@ -55,6 +55,7 @@ import { BlogPostComponent } from './components/blog-post/blog-post.component';
 import { LoginComponent } from './pages/login/login.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { WishlistComponent } from './pages/wishlist/wishlist.component';
+import { WishlistProductComponent } from './components/wishlist-product/wishlist-product.component';
 
 @NgModule({
   declarations: [
@@ -100,7 +101,8 @@ import { WishlistComponent } from './pages/wishlist/wishlist.component';
     BlogPostComponent,
     LoginComponent,
     RegisterComponent,
-    WishlistComponent
+    WishlistComponent,
+    WishlistProductComponent
   ],
   imports: [
     BrowserModule,
