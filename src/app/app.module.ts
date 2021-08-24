@@ -56,6 +56,8 @@ import { LoginComponent } from './pages/login/login.component';
 import { RegisterComponent } from './pages/register/register.component';
 import { WishlistComponent } from './pages/wishlist/wishlist.component';
 import { WishlistProductComponent } from './components/wishlist-product/wishlist-product.component';
+import { CartComponent } from './pages/cart/cart.component';
+import { CartItemComponent } from './components/cart-item/cart-item.component';
 
 @NgModule({
   declarations: [
@@ -102,7 +104,9 @@ import { WishlistProductComponent } from './components/wishlist-product/wishlist
     LoginComponent,
     RegisterComponent,
     WishlistComponent,
-    WishlistProductComponent
+    WishlistProductComponent,
+    CartComponent,
+    CartItemComponent
   ],
   imports: [
     BrowserModule,

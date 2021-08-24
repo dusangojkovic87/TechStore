@@ -1,0 +1,28 @@
+<div class="page-container">
+  <div class="aside-page-container">
+    <app-aside-category-nav></app-aside-category-nav>
+  </div>
+  <div class="main-page-inner-container">
+    <div class="cart-total-container">
+      <h1>Total:$750</h1>
+      <button class="checkout__btn">Proceed to payment</button>
+    </div>
+    <div class="cart-container">
+      <div
+        class="cart-wrrapper"
+        *ngFor="
+          let cartItem of cart | paginate: { itemsPerPage: 2, currentPage: p }
+        "
+      >
+        <app-cart-item [product]="cartItem"></app-cart-item>
+      </div>
+      <pagination-controls
+        *ngIf="cart.length > 0"
+        class="my-pagination"
+        [responsive]="true"
+        (pageChange)="p = $event"
+      ></pagination-controls>
+    </div>
+  </div>
+</div>
+<app-footer></app-footer>

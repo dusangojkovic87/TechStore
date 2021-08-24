@@ -10,6 +10,8 @@ import { Product } from '../Models/Product';
 export class ProductService {
   constructor(private http: HttpClient) {}
   wishlist$ = new BehaviorSubject<any>(null);
+  cartCount$ = new BehaviorSubject<number>(0);
+  cart$ = new BehaviorSubject<Product[]>([]);
 
   getProducts(): Observable<Product> {
     return this.http.get<Product>('/assets/fakeBackendApi/products.json');
@@ -38,6 +40,7 @@ export class ProductService {
           wishlist.push(product);
           let productString = JSON.stringify(wishlist);
           localStorage.setItem('wishlist', productString);
+          this.cartItemCountChanged();
           Swal.fire('Added to wishlist!');
         }
       }
@@ -45,6 +48,7 @@ export class ProductService {
       wishlist.push(product);
       let productString = JSON.stringify(wishlist);
       localStorage.setItem('wishlist', productString);
+      this.cartItemCountChanged();
       Swal.fire('Added to wishlist!');
     }
   }
@@ -103,13 +107,31 @@ export class ProductService {
         }
         let cartString = JSON.stringify(cart);
         localStorage.setItem('cart', cartString);
+        this.cartItemCountChanged();
         Swal.fire('added to cart!');
       }
     } else {
       cart.push(product);
       let cartString = JSON.stringify(cart);
       localStorage.setItem('cart', cartString);
+      this.cartItemCountChanged();
       Swal.fire('added to cart!');
+    }
+  }
+
+  cartItemCountChanged(){
+    let cart = localStorage.getItem("cart");
+    if(cart){
+      let cartJson = JSON.parse(cart);
+      this.cartCount$.next(cartJson.length);
+    }
+  }
+
+  getCart(){
+    let cart = localStorage.getItem("cart");
+    if(cart){
+      let cartJson = JSON.parse(cart);
+      this.cart$.next(cartJson);
     }
   }
 }

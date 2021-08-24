@@ -1,0 +1,17 @@
+<div class="cart-item-container">
+  <div class="cart-item-img-wrrapper">
+    <img src={{product?.img}} alt={{product?.img}} />
+  </div>
+  <div class="cart-details">
+    <p class="product__name">{{product?.productName}}</p>
+    <p class="product__price">Price: {{product?.price | currency:'EUR'}}</p>
+    <button>remove</button>
+  </div>
+  <div class="qt-wrrapper">
+    <div class="arrow-wrrapper">
+      <span class="icon-arrow-up"></span>
+      <p class="qt__number">{{product?.qt}}</p>
+      <span class="icon-arrow-down"></span>
+    </div>
+  </div>
+</div>

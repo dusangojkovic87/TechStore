@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { BlogDetailsComponent } from './pages/blog/blog-details/blog-details.component';
 import { BlogComponent } from './pages/blog/blog.component';
+import { CartComponent } from './pages/cart/cart.component';
 import { ContactComponent } from './pages/contact/contact.component';
 import { HomeComponent } from './pages/home/home.component';
 import { LoginComponent } from './pages/login/login.component';
@@ -23,6 +24,7 @@ const routes: Routes = [
   {path:'blog',component:BlogComponent},
   {path:'blog/:id',component:BlogDetailsComponent},
   {path:'wishlist',component:WishlistComponent},
+  {path:'cart',component:CartComponent},
   {path:'product-details/:id',component:ProductDetailsComponent}
 ];
 
