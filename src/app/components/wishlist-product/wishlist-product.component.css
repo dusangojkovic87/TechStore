@@ -22,6 +22,12 @@
   object-fit: contain;
 }
 
+.wishlist-product-details{
+  position: relative;
+  width: 50%;
+  height: 100%;
+}
+
 p{
   font-family: "Popins";
 }
@@ -34,6 +40,8 @@ p{
 .product__price{
   font-size: 1rem;
 }
+
+
 
 app-rating{
   position: relative;
@@ -51,4 +59,42 @@ button{
   box-shadow: 2px 2px black;
   top: 50px;
  padding: 0.6rem;
+}
+
+@media only screen and (max-width:644px){
+  .wishlist-product{
+    width:500px;
+  }
+
+}
+
+@media only screen and (max-width:530px){
+  .wishlist-product{
+   flex-direction: column;
+   height:400px;
+   align-items: center;
+   width: 300px;
+  }
+
+  .wishlist-product-details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  button{
+    top:10px;
+  }
+
+  app-rating{
+    left:0px;
+  }
+
+  .product__price{
+    margin: 0;
+  }
+
+
+
 }

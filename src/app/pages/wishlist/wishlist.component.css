@@ -4,3 +4,21 @@
   display: flex;
   justify-content: center;
 }
+
+h1{
+  font-family: "Popins";
+  font-size: 1.3rem;
+  text-align: center;
+  margin-top: 40px;
+}
+
+.my-pagination /deep/ .ngx-pagination .current {
+  background: var(--main-orange);
+}
+
+.my-pagination /deep/ .ngx-pagination li {
+ font-family: "Popins";
+ font-size: 1rem;
+ font-weight: bold;
+}
+

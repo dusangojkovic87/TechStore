@@ -1,5 +1,21 @@
 <div class="wishlist-container">
-   <div class="wishlist-wrrapper" *ngFor="let product of wishlist">
-    <app-wishlist-product [wishlistProduct] = "product"></app-wishlist-product>
-   </div>
+  <div *ngIf="wishlist.length > 0; else emptyList">
+    <div
+      class="wishlist-wrrapper"
+      *ngFor="
+        let product of wishlist | paginate: { itemsPerPage: 2, currentPage: p }
+      "
+    >
+      <app-wishlist-product [wishlistProduct]="product"></app-wishlist-product>
+    </div>
+  </div>
+  <pagination-controls
+    *ngIf="wishlist.length > 0"
+    class="my-pagination"
+    [responsive]="true"
+    (pageChange)="p = $event"
+  ></pagination-controls>
+  <ng-template #emptyList>
+    <h1>No products in wishlist!</h1>
+  </ng-template>
 </div>

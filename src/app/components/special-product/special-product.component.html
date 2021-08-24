@@ -8,6 +8,6 @@
     <p class="special__product__price">
       {{ product?.price | currency: "EUR" }}
     </p>
-    <app-product-menu></app-product-menu>
+    <app-product-menu [product] = "product"></app-product-menu>
   </div>
 </div>
