@@ -77,4 +77,39 @@ export class ProductService {
       }
     }
   }
+
+  addToCart(product?: Product) {
+    if (product === null || undefined) {
+      return;
+    }
+    let cart: any = [];
+    if (localStorage.getItem('cart')) {
+      let stored = localStorage.getItem('cart');
+      if (stored) {
+        let storedJSON = JSON.parse(stored);
+        storedJSON.forEach((storedProduct: Product) => {
+          cart.push(storedProduct);
+        });
+
+        let exists = cart.some((stored: Product) => stored.id === product?.id);
+        if (exists) {
+          cart.map((storedProduct: Product) => {
+            if (storedProduct.id === product?.id) {
+              storedProduct.qt += 1;
+            }
+          });
+        } else {
+          cart.push(product);
+        }
+        let cartString = JSON.stringify(cart);
+        localStorage.setItem('cart', cartString);
+        Swal.fire('added to cart!');
+      }
+    } else {
+      cart.push(product);
+      let cartString = JSON.stringify(cart);
+      localStorage.setItem('cart', cartString);
+      Swal.fire('added to cart!');
+    }
+  }
 }

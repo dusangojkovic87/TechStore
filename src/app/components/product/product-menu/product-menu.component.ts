@@ -22,8 +22,10 @@ export class ProductMenuComponent implements OnInit {
   addToWishlist(product?:Product){
     if(product)
       this.productServise.addToWishlist(product);
+  }
 
-
-
+  addToCart(product?:Product){
+    if(product)
+       this.productServise.addToCart(product);
   }
 }
