@@ -1,9 +1,9 @@
 <div class="my-cart-container">
   <div class="cart-icon-wrrapper">
-    <p class="cart__item__number">{{cartCount}}</p>
+    <p class="cart__item__number">{{ cartCount }}</p>
     <span routerLink="cart" class="icon-cart"></span>
     <div class="total-price-wrrapper">
-      <p class="my__cart__text">320$</p>
+      <p class="my__cart__text">{{ totalPrice | currency: "EUR" }}</p>
       <p class="my__cart__text">My Cart</p>
     </div>
   </div>

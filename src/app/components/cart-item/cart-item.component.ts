@@ -12,7 +12,8 @@ export class CartItemComponent implements OnInit {
 
   constructor(private cartServise: ProductService) {}
 
-  ngOnInit(): void {}
+  ngOnInit(): void {
+  }
 
   removeFromCart(id?: number) {
     if (id) {

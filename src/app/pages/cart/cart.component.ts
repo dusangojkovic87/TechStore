@@ -20,6 +20,7 @@ export class CartComponent implements OnInit,OnDestroy {
     this.productService.cart$.subscribe((cart: Product[]) => {
       this.cart = cart;
     });
+
   }
 
   ngOnDestroy(){

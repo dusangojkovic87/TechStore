@@ -10,6 +10,7 @@ import { ProductService } from 'src/app/Services/product.service';
 export class MyCartComponent implements OnInit,OnDestroy {
   cartCount: number = 0;
   cartCountSub?:Subscription;
+  totalPrice:number = 0;
 
   constructor(private productService: ProductService) {}
 
@@ -17,6 +18,11 @@ export class MyCartComponent implements OnInit,OnDestroy {
     this.productService.cartItemCountChanged();
     this.productService.cartCount$.subscribe((cartCount: number) => {
       this.cartCount = cartCount;
+    });
+
+    this.productService.total$.subscribe(data =>{
+      this.totalPrice = data;
+
     });
   }
 

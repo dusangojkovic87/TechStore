@@ -12,6 +12,7 @@ export class ProductService {
   wishlist$ = new BehaviorSubject<any>(null);
   cartCount$ = new BehaviorSubject<number>(0);
   cart$ = new BehaviorSubject<Product[]>([]);
+  total$ = new BehaviorSubject<number>(0);
 
   getProducts(): Observable<Product> {
     return this.http.get<Product>('/assets/fakeBackendApi/products.json');
@@ -108,6 +109,7 @@ export class ProductService {
         let cartString = JSON.stringify(cart);
         localStorage.setItem('cart', cartString);
         this.cartItemCountChanged();
+        this.total();
         Swal.fire('added to cart!');
       }
     } else {
@@ -115,6 +117,7 @@ export class ProductService {
       let cartString = JSON.stringify(cart);
       localStorage.setItem('cart', cartString);
       this.cartItemCountChanged();
+      this.total();
       Swal.fire('added to cart!');
     }
   }
@@ -147,6 +150,7 @@ export class ProductService {
         localStorage.setItem('cart', storedCartString);
         this.cart$.next(filtered);
         this.cartItemCountChanged();
+        this.total();
       }
     }
   }
@@ -160,6 +164,8 @@ export class ProductService {
           for(let i = 0; i < storedCartJSON.length ; i++){
             if(storedCartJSON[i].id === id){
               storedCartJSON[i].qt += 1;
+/*               storedCartJSON[i].totalPrice = storedCartJSON[i].price * storedCartJSON[i].qt ;
+ */
             }
           }
 
@@ -167,6 +173,7 @@ export class ProductService {
           localStorage.setItem("cart",cartString);
           this.cart$.next(storedCartJSON);
           this.cartItemCountChanged();
+          this.total();
         }
       }
     }
@@ -177,13 +184,14 @@ export class ProductService {
       let storedCart = localStorage.getItem('cart');
       if (storedCart) {
         let storedCartJSON = JSON.parse(storedCart);
-        if(storedCart){
+        if(storedCartJSON){
           for(let i = 0; i < storedCartJSON.length ; i++){
             if(storedCartJSON[i].id === id){
               if(storedCartJSON[i].qt <= 1){
                 storedCartJSON.splice(i,1);
               }else{
                 storedCartJSON[i].qt -= 1;
+              /*   storedCartJSON[i].totalPrice = storedCartJSON[i].price / storedCartJSON[i].qt ; */
 
               }
 
@@ -194,9 +202,27 @@ export class ProductService {
           localStorage.setItem("cart",cartString);
           this.cart$.next(storedCartJSON);
           this.cartItemCountChanged();
+          this.total();
         }
       }
     }
+  }
 
+  total(){
+    if (localStorage.getItem('cart')) {
+      let storedCart = localStorage.getItem('cart');
+      if(storedCart){
+        let storedCartJSON = JSON.parse(storedCart);
+        if(storedCartJSON){
+         let total = 0;
+         for(let i = 0; i < storedCartJSON.length;i++){
+            total += storedCartJSON[i].price * storedCartJSON[i].qt;
+         }
+
+         this.total$.next(total);
+
+        }
+      }
+    }
   }
 }
