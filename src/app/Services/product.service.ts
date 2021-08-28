@@ -119,19 +119,84 @@ export class ProductService {
     }
   }
 
-  cartItemCountChanged(){
-    let cart = localStorage.getItem("cart");
-    if(cart){
+  cartItemCountChanged() {
+    let cart = localStorage.getItem('cart');
+    if (cart) {
       let cartJson = JSON.parse(cart);
       this.cartCount$.next(cartJson.length);
     }
   }
 
-  getCart(){
-    let cart = localStorage.getItem("cart");
-    if(cart){
+  getCart() {
+    let cart = localStorage.getItem('cart');
+    if (cart) {
       let cartJson = JSON.parse(cart);
       this.cart$.next(cartJson);
     }
+  }
+
+  removeFromCart(id: number) {
+    if (localStorage.getItem('cart')) {
+      let storedCart = localStorage.getItem('cart');
+      if (storedCart) {
+        let storedCartJSON = JSON.parse(storedCart);
+        let filtered = storedCartJSON.filter(
+          (product: Product) => product.id != id
+        );
+        let storedCartString = JSON.stringify(filtered);
+        localStorage.setItem('cart', storedCartString);
+        this.cart$.next(filtered);
+        this.cartItemCountChanged();
+      }
+    }
+  }
+
+  qtUp(id:number){
+    if (localStorage.getItem('cart')) {
+      let storedCart = localStorage.getItem('cart');
+      if (storedCart) {
+        let storedCartJSON = JSON.parse(storedCart);
+        if(storedCart){
+          for(let i = 0; i < storedCartJSON.length ; i++){
+            if(storedCartJSON[i].id === id){
+              storedCartJSON[i].qt += 1;
+            }
+          }
+
+          let cartString = JSON.stringify(storedCartJSON);
+          localStorage.setItem("cart",cartString);
+          this.cart$.next(storedCartJSON);
+          this.cartItemCountChanged();
+        }
+      }
+    }
+  }
+
+  qtDown(id:number){
+    if (localStorage.getItem('cart')) {
+      let storedCart = localStorage.getItem('cart');
+      if (storedCart) {
+        let storedCartJSON = JSON.parse(storedCart);
+        if(storedCart){
+          for(let i = 0; i < storedCartJSON.length ; i++){
+            if(storedCartJSON[i].id === id){
+              if(storedCartJSON[i].qt <= 1){
+                storedCartJSON.splice(i,1);
+              }else{
+                storedCartJSON[i].qt -= 1;
+
+              }
+
+            }
+          }
+
+          let cartString = JSON.stringify(storedCartJSON);
+          localStorage.setItem("cart",cartString);
+          this.cart$.next(storedCartJSON);
+          this.cartItemCountChanged();
+        }
+      }
+    }
+
   }
 }

@@ -9,5 +9,6 @@ export interface Product{
   specialProduct:boolean;
   description:string;
   reviews:any;
+  total:number;
 
 }
