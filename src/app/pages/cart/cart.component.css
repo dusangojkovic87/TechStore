@@ -41,3 +41,7 @@ h1{
  font-size: 1rem;
  font-weight: bold;
 }
+
+.cart__empty__text{
+  color: var(--main--dark);
+}

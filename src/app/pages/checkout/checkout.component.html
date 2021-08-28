@@ -1,0 +1,80 @@
+<div class="page-container">
+  <div class="aside-page-container">
+    <app-aside-category-nav></app-aside-category-nav>
+  </div>
+  <div class="main-page-inner-container">
+    <div class="checkout-container">
+      <form
+        id="orderForm"
+        [formGroup]="orderForm"
+        class="shipping-form"
+        (ngSubmit)="placeOrder(orderForm)"
+      >
+        <fieldset formGroupName="shippingGroup" class="form-group">
+          <h6>Shipping information</h6>
+          <input
+            formControlName="Address"
+            type="text"
+            name="Address"
+            placeholder="Address"
+          />
+          <input
+            formControlName="Phone"
+            type="number"
+            name="Phone"
+            placeholder="Phone"
+          />
+          <input
+            formControlName="PostalCode"
+            type="text"
+            name="PostalCode"
+            placeholder="Postal Code"
+          />
+          <input
+            formControlName="City"
+            type="text"
+            name="City"
+            placeholder="City"
+          />
+        </fieldset>
+        <fieldset formGroupName="cardGroup">
+          <h6>Card information</h6>
+          <input
+            formControlName="cardName"
+            type="text"
+            name="cardName"
+            placeholder="Name on card"
+          />
+          <input
+            formControlName="cardNumber"
+            type="number"
+            name="cardNumber"
+            placeholder="Card number"
+          />
+          <input
+            formControlName="postalCode"
+            type="text"
+            name="postalCode"
+            placeholder="Postal Code"
+          />
+          <input
+            formControlName="expiryDate"
+            type="text"
+            name="expiryDate"
+            placeholder="Expiry date: yy/mm"
+          />
+          <input
+            formControlName="securityCode"
+            type="text"
+            name="securityCode"
+            placeholder="Security code"
+          />
+        </fieldset>
+      </form>
+    </div>
+    <button class="order__btn" form="orderForm">Place order</button>
+  </div>
+</div>
+<div class="footer">
+  <app-footer></app-footer>
+</div>

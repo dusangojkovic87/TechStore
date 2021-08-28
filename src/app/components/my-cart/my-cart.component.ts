@@ -10,17 +10,19 @@ import { ProductService } from 'src/app/Services/product.service';
 export class MyCartComponent implements OnInit,OnDestroy {
   cartCount: number = 0;
   cartCountSub?:Subscription;
+  totalPriceSub?:Subscription;
   totalPrice:number = 0;
+
 
   constructor(private productService: ProductService) {}
 
   ngOnInit(): void {
     this.productService.cartItemCountChanged();
-    this.productService.cartCount$.subscribe((cartCount: number) => {
+    this.cartCountSub = this.productService.cartCount$.subscribe((cartCount: number) => {
       this.cartCount = cartCount;
     });
 
-    this.productService.total$.subscribe(data =>{
+    this.totalPriceSub = this.productService.total$.subscribe(data =>{
       this.totalPrice = data;
 
     });
@@ -28,6 +30,8 @@ export class MyCartComponent implements OnInit,OnDestroy {
 
   ngOnDestroy(){
     this.cartCountSub?.unsubscribe();
+    this.totalPriceSub?.unsubscribe();
+
 
   }
 }

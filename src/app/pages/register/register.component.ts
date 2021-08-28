@@ -22,7 +22,7 @@ export class RegisterComponent implements OnInit {
   }
 
   register(registerData: FormGroup) {
-    if (!registerData.valid) {
+    if (registerData.valid) {
      Swal.fire("Registered!");
      this.registerForm.reset();
     }

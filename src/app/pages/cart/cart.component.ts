@@ -1,3 +1,4 @@
+import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { Product } from 'src/app/Models/Product';
@@ -12,20 +13,28 @@ export class CartComponent implements OnInit,OnDestroy {
   cart: any;
   cartSub?:Subscription;
   p:any = 1;
+  totalPrice:number = 0;
+  totalPriceSub?:Subscription;
 
   constructor(private productService: ProductService) {}
 
   ngOnInit(): void {
     this.productService.getCart();
-    this.productService.cart$.subscribe((cart: Product[]) => {
+    this.cartSub = this.productService.cart$.subscribe((cart: Product[]) => {
       this.cart = cart;
+    });
+
+    this.productService.total();
+    this.totalPriceSub = this.productService.total$.subscribe(data =>{
+      this.totalPrice = data;
+
     });
 
   }
 
   ngOnDestroy(){
-    this.cartSub = this.cart;
     this.cartSub?.unsubscribe();
+    this.totalPriceSub?.unsubscribe();
 
   }
 }

@@ -58,6 +58,7 @@ import { WishlistComponent } from './pages/wishlist/wishlist.component';
 import { WishlistProductComponent } from './components/wishlist-product/wishlist-product.component';
 import { CartComponent } from './pages/cart/cart.component';
 import { CartItemComponent } from './components/cart-item/cart-item.component';
+import { CheckoutComponent } from './pages/checkout/checkout.component';
 
 @NgModule({
   declarations: [
@@ -106,7 +107,8 @@ import { CartItemComponent } from './components/cart-item/cart-item.component';
     WishlistComponent,
     WishlistProductComponent,
     CartComponent,
-    CartItemComponent
+    CartItemComponent,
+    CheckoutComponent
   ],
   imports: [
     BrowserModule,

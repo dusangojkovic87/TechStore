@@ -4,25 +4,30 @@
   </div>
   <div class="main-page-inner-container">
     <div class="cart-total-container">
-      <h1>Total:$750</h1>
+      <h1>Total: {{ totalPrice | currency: "EUR" }}</h1>
       <button class="checkout__btn">Proceed to payment</button>
     </div>
-    <div class="cart-container">
-      <div
-        class="cart-wrrapper"
-        *ngFor="
-          let cartItem of cart | paginate: { itemsPerPage: 2, currentPage: p }
-        "
-      >
-        <app-cart-item [product]="cartItem"></app-cart-item>
+    <div *ngIf="cart.length > 0;else empty">
+      <div class="cart-container">
+        <div
+          class="cart-wrrapper"
+          *ngFor="
+            let cartItem of cart | paginate: { itemsPerPage: 2, currentPage: p }
+          "
+        >
+          <app-cart-item [product]="cartItem"></app-cart-item>
+        </div>
+        <pagination-controls
+          *ngIf="cart.length > 0"
+          class="my-pagination"
+          [responsive]="true"
+          (pageChange)="p = $event"
+        ></pagination-controls>
       </div>
-      <pagination-controls
-        *ngIf="cart.length > 0"
-        class="my-pagination"
-        [responsive]="true"
-        (pageChange)="p = $event"
-      ></pagination-controls>
     </div>
+    <ng-template #empty>
+      <h1 class="cart__empty__text">Cart empty!</h1>
+    </ng-template>
   </div>
 </div>
 <app-footer></app-footer>
