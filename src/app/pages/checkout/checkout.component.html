@@ -3,6 +3,9 @@
     <app-aside-category-nav></app-aside-category-nav>
   </div>
   <div class="main-page-inner-container">
+    <div class="total-wrrapper">
+        <h1>Total: {{totalPrice | currency:'EUR'}}</h1>
+    </div>
     <div class="checkout-container">
       <form
         id="orderForm"

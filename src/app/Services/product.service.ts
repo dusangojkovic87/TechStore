@@ -164,8 +164,6 @@ export class ProductService {
           for(let i = 0; i < storedCartJSON.length ; i++){
             if(storedCartJSON[i].id === id){
               storedCartJSON[i].qt += 1;
-/*               storedCartJSON[i].totalPrice = storedCartJSON[i].price * storedCartJSON[i].qt ;
- */
             }
           }
 
@@ -191,7 +189,6 @@ export class ProductService {
                 storedCartJSON.splice(i,1);
               }else{
                 storedCartJSON[i].qt -= 1;
-              /*   storedCartJSON[i].totalPrice = storedCartJSON[i].price / storedCartJSON[i].qt ; */
 
               }
 
@@ -224,5 +221,9 @@ export class ProductService {
         }
       }
     }
+  }
+
+  deleteCart(){
+    localStorage.removeItem("cart");
   }
 }
