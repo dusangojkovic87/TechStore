@@ -1,16 +1,20 @@
 <div class="main-logo-wrrapper">
   <h1>TechStore</h1>
   <div class="search-wrrapper">
-    <select name="categoryList" id="categoryList">
-      <option value="Desktop">Desktop</option>
-      <option value="Laptop">Laptop</option>
-    </select>
-    <input
-      class="main__search__input"
-      type="text"
-      name="search"
-      placeholder="search for products.."
-    />
-    <button class="search__btn">Search</button>
+    <form [formGroup] = "searchGroup" (ngSubmit) = "searchByTerm(searchGroup)">
+      <select formControlName="categoryList" name="categoryList" id="categoryList">
+        <option *ngFor="let category of categories" value="{{ category }}">
+          {{ category }}
+        </option>
+      </select>
+      <input
+        formControlName="search"
+        class="main__search__input"
+        type="text"
+        name="search"
+        placeholder="search for products.."
+      />
+      <button type="submit" class="search__btn">Search</button>
+    </form>
   </div>
 </div>

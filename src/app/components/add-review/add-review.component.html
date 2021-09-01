@@ -1,16 +1,16 @@
 <div class="add-review-container">
-  <form>
+  <form [formGroup] = "addReviewGroup" (ngSubmit) = "addReview(addReviewGroup)">
     <label for="name">Your Name:</label>
-    <input type="text" name="name">
+    <input formControlName="name" class="input__review" type="text" name="name">
     <label for="review">Review:</label>
-    <input type="text" name="review">
+    <input formControlName="review" class="input__review" type="text" name="review">
     <div class="radio-group">
         <p>bad</p>
-        <input class="radio__btn" type="radio" name="rating" value="1">
-        <input class="radio__btn" type="radio" name="rating" value="2">
-        <input class="radio__btn" type="radio" name="rating" value="3">
-        <input class="radio__btn" type="radio" name="rating" value="4">
-        <input class="radio__btn" type="radio" name="rating" value="5">
+        <input formControlName="rating" class="radio__btn" type="radio" name="rating" value="1">
+        <input formControlName="rating" class="radio__btn" type="radio" name="rating" value="2">
+        <input formControlName="rating" class="radio__btn" type="radio" name="rating" value="3">
+        <input formControlName="rating" class="radio__btn" type="radio" name="rating" value="4">
+        <input formControlName="rating" class="radio__btn" type="radio" name="rating" value="5">
         <p>good</p>
     </div>
     <button class="send__review__btn" type="submit">send</button>

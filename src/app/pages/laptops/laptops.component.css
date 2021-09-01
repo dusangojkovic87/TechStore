@@ -1,0 +1,8 @@
+@media only screen and (max-width:970px){
+  .page-container{
+    justify-content: center;
+  }
+  .aside-page-container{
+    display: none;
+  }
+}

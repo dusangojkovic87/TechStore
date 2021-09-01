@@ -3,9 +3,9 @@
     <app-aside-category-nav></app-aside-category-nav>
   </div>
   <div class="main-page-inner-container">
-    <div class="cart-total-container">
+    <div *ngIf="cart.length > 0" class="cart-total-container">
       <h1>Total: {{ totalPrice | currency: "EUR" }}</h1>
-      <button class="checkout__btn">Proceed to payment</button>
+      <button routerLink="checkout" class="checkout__btn">Proceed to payment</button>
     </div>
     <div *ngIf="cart.length > 0;else empty">
       <div class="cart-container">

@@ -89,6 +89,7 @@ export class CheckoutComponent implements OnInit, OnDestroy {
 
   async clearCart() {
     await this.cartServise.deleteCart();
+    await this.cartServise.cartCount$.next(0);
     await this.cartServise.total$.next(0);
     await this.cartServise.cartItemCountChanged();
   }

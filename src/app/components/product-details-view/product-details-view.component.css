@@ -133,12 +133,12 @@ form > p{
   height: 40px;
   background-color: var(--main-orange);
   border: none;
-  margin-left: 40px;
   color: white;
   font-family: "Popins";
   font-size:0.9rem;
   cursor: pointer;
   border-radius: 5px;
+  margin-top:10px;
 }
 
 app-rating{
@@ -152,9 +152,9 @@ app-rating{
   height: 30px;
   display: flex;
   align-items: center;
-  margin-top: 1rem;
   margin-left: 10px;
   cursor: pointer;
+  margin-top:30px;
 }
 
 .wishlist-wrrapper:hover .icon-wishlist::after{
@@ -191,10 +191,28 @@ app-rating{
   margin-right:5px;
 }
 
+.icon-arrow-up{
+  position: relative;
+  background: url("/assets/icons/product-details/arrow-up.svg");
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+}
+
+.icon-arrow-down{
+  position: relative;
+  background: url("/assets/icons/product-details/arrow-down.svg");
+  display: block;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+}
+
 .description-reviews-container{
   position: relative;
   width: 100%;
-  height: 400px;
+  height: auto;
   background-color:var(--light-grey-bg);
 }
 

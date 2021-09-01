@@ -59,6 +59,13 @@ import { WishlistProductComponent } from './components/wishlist-product/wishlist
 import { CartComponent } from './pages/cart/cart.component';
 import { CartItemComponent } from './components/cart-item/cart-item.component';
 import { CheckoutComponent } from './pages/checkout/checkout.component';
+import { DesktopsComponent } from './pages/desktops/desktops.component';
+import { LaptopsComponent } from './pages/laptops/laptops.component';
+import { CamerasComponent } from './pages/cameras/cameras.component';
+import { PhonesComponent } from './pages/phones/phones.component';
+import { ScannersComponent } from './pages/scanners/scanners.component';
+import { WatchesComponent } from './pages/watches/watches.component';
+import { PeripheralsComponent } from './pages/peripherals/peripherals.component';
 
 @NgModule({
   declarations: [
@@ -108,7 +115,14 @@ import { CheckoutComponent } from './pages/checkout/checkout.component';
     WishlistProductComponent,
     CartComponent,
     CartItemComponent,
-    CheckoutComponent
+    CheckoutComponent,
+    DesktopsComponent,
+    LaptopsComponent,
+    CamerasComponent,
+    PhonesComponent,
+    ScannersComponent,
+    WatchesComponent,
+    PeripheralsComponent
   ],
   imports: [
     BrowserModule,

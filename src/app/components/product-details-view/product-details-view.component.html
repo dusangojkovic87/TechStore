@@ -18,15 +18,11 @@
       <strong>Avaliability:</strong>{{ p?.avaliability }}
     </p>
     <div class="add-to-cart-wrrapper">
-      <form>
-        <p>Qt</p>
-        <input class="qt__input" type="text" name="qt" />
-        <button class="add__to__cart__btn">add to cart</button>
-      </form>
+        <button (click) = "addToCart(p)" class="add__to__cart__btn">add to cart</button>
     </div>
     <div class="wishlist-wrrapper">
       <span class="icon-wishlist"></span>
-      <button>add to wishlist</button>
+      <button (click) = "addToWishlist(p)">add to wishlist</button>
     </div>
   </div>
 </div>

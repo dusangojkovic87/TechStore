@@ -22,6 +22,10 @@ export class ProductService {
     return this.http.get<Product>('/assets/fakeBackendApi/new-collection.json');
   }
 
+  getCategoryList():Observable<any>{
+    return this.http.get('/assets/fakeBackendApi/categoryList.json');
+  }
+
   addToWishlist(product: Product) {
     let wishlist: Product[] = [];
     if (localStorage.getItem('wishlist')) {
