@@ -7,6 +7,7 @@
     "avaliability":"in stock",
     "rating":3,
     "img":"/assets/images/featured/img1.jpg",
+    "category":"Peripherals",
     "specialProduct":false,
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
     "reviews":[
@@ -30,6 +31,7 @@
     "avaliability":"in stock",
     "rating":4,
     "img":"/assets/images/featured/img2.jpg",
+    "category":"Watch",
     "specialProduct":false,
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
     "reviews":[
@@ -53,6 +55,7 @@
     "avaliability":"in stock",
     "rating":3,
     "img":"/assets/images/featured/img3.jpg",
+    "category":"Peripherals",
     "specialProduct":false,
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
     "reviews":[
@@ -76,6 +79,7 @@
     "avaliability":"in stock",
     "rating":3,
     "img":"/assets/images/featured/img4.jpg",
+    "category":"Laptops",
     "specialProduct":false,
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
     "reviews":[
@@ -99,6 +103,7 @@
     "avaliability":"in stock",
     "rating":2,
     "img":"/assets/images/featured/img5.png",
+    "category":"Phones",
     "specialProduct":false,
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
     "reviews":[
@@ -123,6 +128,7 @@
     "avaliability":"in stock",
     "rating":3,
     "img":"/assets/images/featured/img6.jpg",
+    "category":"Watch",
     "specialProduct":false,
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
     "reviews":[
@@ -148,6 +154,7 @@
     "avaliability":"in stock",
     "rating":4,
     "img":"/assets/images/special-products/img1.jpg",
+    "category":"Desktops",
     "specialProduct":true,
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
     "reviews":[
@@ -173,6 +180,7 @@
     "avaliability":"in stock",
     "rating":3,
     "img":"/assets/images/special-products/img2.png",
+    "category":"Watch",
     "specialProduct":true,
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
     "reviews":[
@@ -198,6 +206,7 @@
     "avaliability":"in stock",
     "rating":5,
     "img":"/assets/images/special-products/img3.png",
+    "category":"Peripherals",
     "specialProduct":true,
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
     "reviews":[
@@ -223,6 +232,7 @@
     "avaliability":"in stock",
     "rating":4,
     "img":"/assets/images/special-products/img4.png",
+    "category":"Laptops",
     "specialProduct":true,
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
     "reviews":[
@@ -248,6 +258,7 @@
     "avaliability":"in stock",
     "rating":4,
     "img":"/assets/images/special-products/img5.png",
+    "category":"Peripherals",
     "specialProduct":true,
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
     "reviews":[
@@ -271,6 +282,7 @@
     "avaliability":"in stock",
     "rating":4,
     "img":"/assets/images/new-collection/img1.jpg",
+    "category":"Peripherals",
     "specialProduct":false,
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
     "reviews":[
@@ -294,6 +306,7 @@
     "avaliability":"in stock",
     "rating":4,
     "img":"/assets/images/new-collection/img2.jpg",
+    "category":"Peripherals",
     "specialProduct":false,
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
     "reviews":[
@@ -319,6 +332,7 @@
     "avaliability":"in stock",
     "rating":4,
     "img":"/assets/images/new-collection/img3.png",
+    "category":"Peripherals",
     "specialProduct":false,
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
     "reviews":[
@@ -344,6 +358,7 @@
     "avaliability":"in stock",
     "rating":4,
     "img":"/assets/images/new-collection/img4.png",
+    "category":"Cameras",
     "specialProduct":false,
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
     "reviews":[
@@ -367,6 +382,7 @@
     "avaliability":"in stock",
     "rating":4,
     "img":"/assets/images/new-collection/img5.jpg",
+    "category":"Watch",
     "specialProduct":false,
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
     "reviews":[
@@ -392,6 +408,81 @@
     "avaliability":"in stock",
     "rating":4,
     "img":"/assets/images/new-collection/img6.png",
+    "category":"Peripherals",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
+
+
+  },
+  {
+    "id":18,
+    "productName":"Altos Flint",
+    "price":340.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/products/img18.jpg",
+    "category":"Desktops",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
+  },
+  {
+    "id":19,
+    "productName":"Altos Viserion",
+    "price":430.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/products/img19.png",
+    "category":"Desktops",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
+  },
+  {
+    "id":19,
+    "productName":"Altos Athmosfere",
+    "price":1400.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/products/img20.png",
+    "category":"Desktops",
     "specialProduct":false,
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
     "reviews":[
@@ -409,5 +500,6 @@
 
 
   }
+
 
 ]

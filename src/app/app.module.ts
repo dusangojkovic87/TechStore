@@ -66,6 +66,8 @@ import { PhonesComponent } from './pages/phones/phones.component';
 import { ScannersComponent } from './pages/scanners/scanners.component';
 import { WatchesComponent } from './pages/watches/watches.component';
 import { PeripheralsComponent } from './pages/peripherals/peripherals.component';
+import { DesktopListComponent } from './pages/desktops/desktop-list/desktop-list.component';
+import { LaptopListComponent } from './pages/laptops/laptop-list/laptop-list.component';
 
 @NgModule({
   declarations: [
@@ -122,7 +124,9 @@ import { PeripheralsComponent } from './pages/peripherals/peripherals.component'
     PhonesComponent,
     ScannersComponent,
     WatchesComponent,
-    PeripheralsComponent
+    PeripheralsComponent,
+    DesktopListComponent,
+    LaptopListComponent
   ],
   imports: [
     BrowserModule,

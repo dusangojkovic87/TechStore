@@ -6,6 +6,7 @@ export interface Product{
   avaliability:string;
   rating?:number;
   img:string;
+  category:string;
   specialProduct:boolean;
   description:string;
   reviews:any;

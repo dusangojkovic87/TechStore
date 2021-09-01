@@ -1,0 +1,15 @@
+<div *ngIf="laptops" class="product-list-container">
+  <div
+    class="product-wrrapper"
+    *ngFor="
+      let product of laptops | paginate: { itemsPerPage: 4, currentPage: p }
+    "
+  >
+    <app-product [product]="product"></app-product>
+  </div>
+</div>
+<pagination-controls
+  class="my-pagination"
+  [responsive]="true"
+  (pageChange)="p = $event"
+></pagination-controls>
