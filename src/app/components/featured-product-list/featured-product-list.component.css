@@ -59,7 +59,7 @@ h2{
   position: relative;
   width: 30px;
   height: 30px;
-  background: url("assets/icons/featured-products/left.svg");
+  background: url("https://dusangojkovic87.github.io/assets/icons/featured-products/left.svg");
   background-repeat: no-repeat;
   display: block;
   cursor: pointer;
@@ -69,7 +69,7 @@ h2{
   position: relative;
   width: 30px;
   height: 30px;
-  background: url("assets/icons/featured-products/right.svg");
+  background: url("https://dusangojkovic87.github.io/assets/icons/featured-products/right.svg");
   background-repeat: no-repeat;
   display: block;
   cursor: pointer;

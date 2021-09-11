@@ -11,14 +11,14 @@
   position: relative;
   width: 40px;
   height: 40px;
-  background: url("assets/icons/cart.svg");
+  background: url("https://dusangojkovic87.github.io/assets/icons/cart.svg");
   display: block;
   background-repeat: no-repeat;
   cursor: pointer;
 }
 
 .cart-icon-wrrapper:hover .icon-cart::before{
-  content: url("assets/icons/cart-orange.svg");
+  content: url("https://dusangojkovic87.github.io/assets/icons/cart-orange.svg");
   width: 40px;
   height: 40px;
 }

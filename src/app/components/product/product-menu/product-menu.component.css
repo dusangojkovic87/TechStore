@@ -32,7 +32,7 @@
   display: block;
   width: 20px;
   height: 20px;
-  background: url("assets/icons/product-menu/cart.svg");
+  background: url("https://dusangojkovic87.github.io/assets/icons/product-menu/cart.svg");
   background-repeat: no-repeat;
   cursor: pointer;
 }
@@ -42,7 +42,7 @@
   display: block;
   width: 20px;
   height: 20px;
-  background: url("assets/icons/product-menu/eye.svg");
+  background: url("https://dusangojkovic87.github.io/assets/icons/product-menu/eye.svg");
   background-repeat: no-repeat;
   cursor: pointer;
 }
@@ -52,7 +52,7 @@
   display: block;
   width: 20px;
   height: 20px;
-  background: url("assets/icons/product-menu/wishlist.svg");
+  background: url("https://dusangojkovic87.github.io/assets/icons/product-menu/wishlist.svg");
   background-repeat: no-repeat;
   cursor: pointer;
 }
