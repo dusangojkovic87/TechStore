@@ -68,6 +68,12 @@ import { WatchesComponent } from './pages/watches/watches.component';
 import { PeripheralsComponent } from './pages/peripherals/peripherals.component';
 import { DesktopListComponent } from './pages/desktops/desktop-list/desktop-list.component';
 import { LaptopListComponent } from './pages/laptops/laptop-list/laptop-list.component';
+import { CamerasListComponent } from './pages/cameras/cameras-list/cameras-list.component';
+import { PhoneListComponent } from './pages/phones/phone-list/phone-list.component';
+import { ScannerListComponent } from './pages/scanners/scanner-list/scanner-list.component';
+import { WatchListComponent } from './pages/watches/watch-list/watch-list.component';
+import { PeripheralsListComponent } from './pages/peripherals/peripherals-list/peripherals-list.component';
+import { MobileMenuComponent } from './components/mobile-menu/mobile-menu.component';
 
 @NgModule({
   declarations: [
@@ -126,7 +132,13 @@ import { LaptopListComponent } from './pages/laptops/laptop-list/laptop-list.com
     WatchesComponent,
     PeripheralsComponent,
     DesktopListComponent,
-    LaptopListComponent
+    LaptopListComponent,
+    CamerasListComponent,
+    PhoneListComponent,
+    ScannerListComponent,
+    WatchListComponent,
+    PeripheralsListComponent,
+    MobileMenuComponent
   ],
   imports: [
     BrowserModule,

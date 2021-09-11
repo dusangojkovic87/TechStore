@@ -1,0 +1,52 @@
+<div *ngIf="sideNavOpen" class="side-menu-container">
+  <ul>
+    <li
+      routerLink="home"
+      routerLinkActive="activeLink"
+      (click)="closeSideNav()"
+    >
+      Home
+    </li>
+    <li
+      routerLink="new-collection"
+      routerLinkActive="activeLink"
+      (click)="closeSideNav()"
+    >
+      New Collection
+    </li>
+    <li
+      routerLink="specials"
+      routerLinkActive="activeLink"
+      (click)="closeSideNav()"
+    >
+      Specials
+    </li>
+    <li (click) = "toggleCategories()">Categories</li>
+    <div *ngIf="categoriesOpen" class="dropdown-container">
+      <ul>
+        <li routerLink="desktops" routerLinkActive="activeLink">Desktops</li>
+        <li routerLink="laptops" routerLinkActive="activeLink">Laptops</li>
+        <li routerLink="cameras" routerLinkActive="activeLink">Cameras</li>
+        <li routerLink="phones" routerLinkActive="activeLink">Phones</li>
+        <li routerLink="scanners" routerLinkActive="activeLink">Scanners</li>
+        <li routerLink="watches" routerLinkActive="activeLink">Watches</li>
+        <li routerLink="peripherals" routerLinkActive="activeLink">Peripherals</li>
+      </ul>
+
+    </div>
+    <li
+      routerLink="contact"
+      routerLinkActive="activeLink"
+      (click)="closeSideNav()"
+    >
+      Contact us
+    </li>
+    <li
+      routerLink="blog"
+      routerLinkActive="activeLink"
+      (click)="closeSideNav()"
+    >
+      Blogs
+    </li>
+  </ul>
+</div>

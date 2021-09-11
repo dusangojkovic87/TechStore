@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { ProductService } from 'src/app/Services/product.service';
 
 @Component({
   selector: 'app-cameras',
@@ -7,9 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CamerasComponent implements OnInit {
 
-  constructor() { }
+  constructor(private productServise:ProductService) { }
 
   ngOnInit(): void {
+
+
   }
 
 }

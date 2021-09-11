@@ -402,13 +402,13 @@
   },
   {
     "id":17,
-    "productName":"Scenner Canon",
+    "productName":"Scanner Canon",
     "price":130.00,
     "qt":1,
     "avaliability":"in stock",
     "rating":4,
     "img":"/assets/images/new-collection/img6.png",
-    "category":"Peripherals",
+    "category":"Scanner",
     "specialProduct":false,
     "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
     "reviews":[
