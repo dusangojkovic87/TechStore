@@ -63,7 +63,7 @@
   display: block;
   width: 40px;
   height: 40px;
-  background: url("assets/icons/info-card/smile.svg");
+  background: url("~assets/icons/info-card/smile.svg");
   background-repeat: no-repeat;
 }
 
@@ -72,7 +72,7 @@
   display: block;
   width: 40px;
   height: 40px;
-  background: url("assets/icons/info-card/like.svg");
+  background: url("~assets/icons/info-card/like.svg");
   background-repeat: no-repeat;
 }
 
@@ -81,7 +81,7 @@
   display: block;
   width: 40px;
   height: 40px;
-  background: url("assets/icons/info-card/plane.svg");
+  background: url("~assets/icons/info-card/plane.svg");
   background-repeat: no-repeat;
 }
 
