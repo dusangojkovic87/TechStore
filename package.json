@@ -1,6 +1,7 @@
 {
   "name": "techstore",
   "version": "0.0.0",
+  "homepage": "https://dusangojkovic87.github.io/TechStore",
   "scripts": {
     "ng": "ng",
     "start": "ng serve",
