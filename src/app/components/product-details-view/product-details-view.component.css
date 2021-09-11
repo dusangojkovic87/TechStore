@@ -63,14 +63,14 @@
   content: "";
   width: 10px;
   height: 10px;
-  background: url("https://dusangojkovic87.github.io/assets/icons/product-details/pencil-orange.svg");
+  background: url("assets/icons/product-details/pencil-orange.svg");
 }
 
 .icon-pencil{
   width: 10px;
   height: 10px;
   display: block;
-  background: url("https://dusangojkovic87.github.io/assets/icons/product-details/pencil.svg");
+  background: url("assets/icons/product-details/pencil.svg");
   background-repeat: no-repeat;
 }
 
@@ -159,7 +159,7 @@ app-rating{
 
 .wishlist-wrrapper:hover .icon-wishlist::after{
   position: relative;
-  content:url("https://dusangojkovic87.github.io/assets/icons/product-details/full-heart.svg");
+  content:url("assets/icons/product-details/full-heart.svg");
   width: 20px;
   height: 20px;
 
@@ -183,7 +183,7 @@ app-rating{
 /*icons*/
 .icon-wishlist{
   position: relative;
-  background: url("https://dusangojkovic87.github.io/assets/icons/product-details/empty-heart.svg");
+  background: url("assets/icons/product-details/empty-heart.svg");
   display: block;
   width: 20px;
   height: 20px;
@@ -193,7 +193,7 @@ app-rating{
 
 .icon-arrow-up{
   position: relative;
-  background: url("https://dusangojkovic87.github.io/assets/icons/product-details/arrow-up.svg");
+  background: url("assets/icons/product-details/arrow-up.svg");
   display: block;
   width: 20px;
   height: 20px;
@@ -202,7 +202,7 @@ app-rating{
 
 .icon-arrow-down{
   position: relative;
-  background: url("https://dusangojkovic87.github.io/assets/icons/product-details/arrow-down.svg");
+  background: url("assets/icons/product-details/arrow-down.svg");
   display: block;
   width: 20px;
   height: 20px;
