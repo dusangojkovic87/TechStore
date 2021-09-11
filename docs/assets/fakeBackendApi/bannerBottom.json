@@ -1,0 +1,15 @@
+[
+  {
+    "id":1,
+    "salePercent":20,
+    "productCategory":"Desktops",
+    "img":"/assets/images/banner-bottom/img1.png"
+  },
+  {
+    "id":2,
+    "salePercent":30,
+    "productCategory":"Laptops",
+    "img":"/assets/images/banner-bottom/img2.png"
+  }
+
+]

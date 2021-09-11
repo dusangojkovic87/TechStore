@@ -1,0 +1,646 @@
+[
+  {
+    "id":1,
+    "productName":"Headphones Rode",
+    "price":232.50,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":3,
+    "img":"/assets/images/featured/img1.jpg",
+    "category":"Peripherals",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"21/12/2021"
+      }
+    ]
+  },
+  {
+    "id":2,
+    "productName":"Watch Apple series 3",
+    "price":137.99,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/featured/img2.jpg",
+    "category":"Watch",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"21/12/2021"
+      }
+    ]
+  },
+  {
+    "id":3,
+    "productName":"Eufy indoor camera",
+    "price":43,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":3,
+    "img":"/assets/images/featured/img3.jpg",
+    "category":"Peripherals",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"21/12/2021"
+      }
+    ]
+  },
+  {
+    "id":4,
+    "productName":"Tablet vivax",
+    "price":120,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":3,
+    "img":"/assets/images/featured/img4.jpg",
+    "category":"Laptops",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"21/12/2021"
+      }
+    ]
+  },
+  {
+    "id":5,
+    "productName":"Motorola G5",
+    "price":232.50,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":2,
+    "img":"/assets/images/featured/img5.png",
+    "category":"Phones",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"21/12/2021"
+      }
+    ]
+
+  },
+  {
+    "id":6,
+    "productName":"Denver smart watch ",
+    "price":190.23,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":3,
+    "img":"/assets/images/featured/img6.jpg",
+    "category":"Watch",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"21/12/2021"
+      }
+    ]
+
+
+  },
+  {
+    "id":7,
+    "productName":"Asus 90PF02Q1-M02860",
+    "price":1900.23,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/special-products/img1.jpg",
+    "category":"Desktops",
+    "specialProduct":true,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"21/12/2021"
+      }
+    ]
+
+
+  },
+  {
+    "id":8,
+    "productName":"Xiaomi Mi Watch Lite",
+    "price":40.50,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":3,
+    "img":"/assets/images/special-products/img2.png",
+    "category":"Watch",
+    "specialProduct":true,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"21/12/2021"
+      }
+    ]
+
+
+  },
+  {
+    "id":9,
+    "productName":"Monitor Dell U2722D 27",
+    "price":120.99,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":5,
+    "img":"/assets/images/special-products/img3.png",
+    "category":"Peripherals",
+    "specialProduct":true,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"21/12/2021"
+      }
+    ]
+
+
+  },
+  {
+    "id":10,
+    "productName":"Apple MacBook Air M1 13,3",
+    "price":1245.99,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/special-products/img4.png",
+    "category":"Laptops",
+    "specialProduct":true,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"21/12/2021"
+      }
+    ]
+
+
+  },
+  {
+    "id":11,
+    "productName":"Razer BlackWidow",
+    "price":12.99,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/special-products/img5.png",
+    "category":"Peripherals",
+    "specialProduct":true,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"21/12/2021"
+      }
+    ]
+  },
+  {
+    "id":12,
+    "productName":"Keyboard Razor",
+    "price":5.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/new-collection/img1.jpg",
+    "category":"Peripherals",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
+  },
+  {
+    "id":13,
+    "productName":"Mouse Altos",
+    "price":7.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/new-collection/img2.jpg",
+    "category":"Peripherals",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
+
+
+  },
+  {
+    "id":14,
+    "productName":"Camera Yenkee",
+    "price":8.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/new-collection/img3.png",
+    "category":"Peripherals",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
+
+
+  },
+  {
+    "id":15,
+    "productName":"Camera Denver",
+    "price":40.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/new-collection/img4.png",
+    "category":"Cameras",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
+  },
+  {
+    "id":16,
+    "productName":"Smart Watch Honor",
+    "price":120.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/new-collection/img5.jpg",
+    "category":"Watch",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
+
+
+  },
+  {
+    "id":17,
+    "productName":"Scanner Canon",
+    "price":130.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/new-collection/img6.png",
+    "category":"Scanner",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
+
+
+  },
+  {
+    "id":18,
+    "productName":"Altos Flint",
+    "price":340.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/products/img18.jpg",
+    "category":"Desktops",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
+  },
+  {
+    "id":19,
+    "productName":"Altos Viserion",
+    "price":430.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/products/img19.png",
+    "category":"Desktops",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
+  },
+  {
+    "id":19,
+    "productName":"Altos Athmosfere",
+    "price":1400.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/products/img20.png",
+    "category":"Desktops",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
+  },
+  {
+    "id":20,
+    "productName":"Asus FX506HC-HN002",
+    "price":1789.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/products/img21.png",
+    "category":"Laptops",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
+  },
+  {
+    "id":21,
+    "productName":"Acer extenca 15",
+    "price":340.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/products/img22.png",
+    "category":"Laptops",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
+  },
+  {
+    "id":22,
+    "productName":"Yenkee camera",
+    "price":13.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/products/img23.png",
+    "category":"Cameras",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
+  },
+  {
+    "id":23,
+    "productName":"Natec camera",
+    "price":16.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/products/img24.jpg",
+    "category":"Cameras",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
+  },
+  {
+    "id":23,
+    "productName":"Wiko mobile",
+    "price":12.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/products/img25.png",
+    "category":"Phones",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
+  },
+  {
+    "id":24,
+    "productName":"Cat 80",
+    "price":19.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/products/img26.png",
+    "category":"Phones",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
+  }
+
+]
