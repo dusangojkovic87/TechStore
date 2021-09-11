@@ -12,15 +12,15 @@ export class BannerService {
   constructor(private http:HttpClient) { }
 
   getBannerData():Observable<Banner>{
-    return this.http.get<Banner>("/assets/fakeBackendApi/banner.json");
+    return this.http.get<Banner>("assets/fakeBackendApi/banner.json");
   }
 
   getAsideBannerData():Observable<AsideBanner>{
-    return this.http.get<AsideBanner>("/assets/fakeBackendApi/aside-banner.json");
+    return this.http.get<AsideBanner>("assets/fakeBackendApi/aside-banner.json");
   }
 
   getBannerBottomData():Observable<Banner>{
-    return this.http.get<Banner>("/assets/fakeBackendApi/bannerBottom.json");
+    return this.http.get<Banner>("assets/fakeBackendApi/bannerBottom.json");
 
   }
 }

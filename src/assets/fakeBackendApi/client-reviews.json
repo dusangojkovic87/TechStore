@@ -4,21 +4,21 @@
     "author":"Jonn Doe",
     "reviewText":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet alias reprehenderit nulla eligendi magni nisi distinctio quas officiis? Velit perspiciatis similique modi laborum repudiandae consequatur aliquam ducimus voluptatem, dolorem ab?",
     "date":"21/12/2021",
-    "img":"/assets/icons/client-aside-review-list/quote.png"
+    "img":"assets/icons/client-aside-review-list/quote.png"
   },
   {
     "id":2,
     "author":"Sandra James",
     "reviewText":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet alias reprehenderit nulla eligendi magni nisi distinctio quas officiis? Velit perspiciatis similique modi laborum repudiandae consequatur aliquam ducimus voluptatem, dolorem ab?",
     "date":"01/04/2021",
-    "img":"/assets/icons/client-aside-review-list/quote.png"
+    "img":"assets/icons/client-aside-review-list/quote.png"
   },
   {
     "id":3,
     "author":"Tom Williams",
     "reviewText":"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet alias reprehenderit nulla eligendi magni nisi distinctio quas officiis? Velit perspiciatis similique modi laborum repudiandae consequatur aliquam ducimus voluptatem, dolorem ab?",
     "date":"17/07/2021",
-    "img":"/assets/icons/client-aside-review-list/quote.png"
+    "img":"assets/icons/client-aside-review-list/quote.png"
   }
 ]
 

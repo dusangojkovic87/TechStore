@@ -1,21 +1,21 @@
 [
   {
     "id":1,
-    "img":"/assets/images/blog/img1.jpg",
+    "img":"assets/images/blog/img1.jpg",
     "blogHeading":"Samsung Galaxy S21",
     "blogText":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, delectus ea magnam nostrum earum recusandae nesciunt aliquid sint aliquam, doloremque labore a quidem accusantium consequuntur hic optio totam? Libero perferendis ullam hic maiores labore nihil tempore tempora commodi, perspiciatis autem odit quidem ex quaerat sequi. Cumque atque sapiente maiores enim officia velit nihil debitis corporis nulla ratione ullam, eius ipsum quisquam nostrum ducimus consequatur doloremque asperiores labore molestias illum eligendi perferendis aperiam id. Inventore laudantium consequatur enim rerum perferendis? Magni sed, facilis minus recusandae ea minima veniam sequi iste voluptatem quae quo nulla perferendis? Ad molestias distinctio molestiae repellat quasi.",
     "blogDate":"21/12/2021"
   },
   {
     "id":2,
-    "img":"/assets/images/blog/img2.jpg",
+    "img":"assets/images/blog/img2.jpg",
     "blogHeading":"Aplle MacBook 13",
     "blogText":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem accusamus explicabo cum nisi laborum dolores excepturi amet in neque quae repellat culpa vitae eius deleniti eveniet asperiores, voluptates omnis itaque sed porro atque odio saepe suscipit earum. Impedit perferendis eveniet quam dignissimos. Quasi ab et alias tempore nihil consequuntur quia vitae tenetur exercitationem, perferendis nam accusamus, dolore facilis id delectus? Sit quam odit cupiditate laborum non illo ratione velit ipsa nesciunt, impedit corporis sequi, error ab quasi officiis sapiente adipisci. Quasi corrupti nostrum natus? Beatae, accusantium iusto fugit ipsam numquam ab impedit eveniet laudantium possimus eius quae dolorem dolore tempora quidem libero, pariatur totam, dignissimos aperiam alias fuga? Libero nihil amet culpa voluptatibus ea harum distinctio autem nulla fugiat voluptatum!",
     "blogDate":"12/11/2021"
   },
   {
     "id":3,
-    "img":"/assets/images/blog/img3.jpg",
+    "img":"assets/images/blog/img3.jpg",
     "blogHeading":"Xiaomi Redmi Note 9",
     "blogText":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem accusamus explicabo cum nisi laborum dolores excepturi amet in neque quae repellat culpa vitae eius deleniti eveniet asperiores, voluptates omnis itaque sed porro atque odio saepe suscipit earum. Impedit perferendis eveniet quam dignissimos. Quasi ab et alias tempore nihil consequuntur quia vitae tenetur exercitationem, perferendis nam accusamus, dolore facilis id delectus? Sit quam odit cupiditate laborum non illo ratione velit ipsa nesciunt, impedit corporis sequi, error ab quasi officiis sapiente adipisci. Quasi corrupti nostrum natus? Beatae, accusantium iusto fugit ipsam numquam ab impedit eveniet laudantium possimus eius quae dolorem dolore tempora quidem libero, pariatur totam, dignissimos aperiam alias fuga? Libero nihil amet culpa voluptatibus ea harum distinctio autem nulla fugiat voluptatum!",
     "blogDate":"15/07/2021"

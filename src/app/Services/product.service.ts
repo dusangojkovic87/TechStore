@@ -15,15 +15,15 @@ export class ProductService {
   total$ = new BehaviorSubject<number>(0);
 
   getProducts(): Observable<Product> {
-    return this.http.get<Product>('/assets/fakeBackendApi/products.json');
+    return this.http.get<Product>('assets/fakeBackendApi/products.json');
   }
 
   getNewCollection(): Observable<Product> {
-    return this.http.get<Product>('/assets/fakeBackendApi/new-collection.json');
+    return this.http.get<Product>('assets/fakeBackendApi/new-collection.json');
   }
 
   getCategoryList():Observable<any>{
-    return this.http.get('/assets/fakeBackendApi/categoryList.json');
+    return this.http.get('assets/fakeBackendApi/categoryList.json');
   }
 
   addToWishlist(product: Product) {

@@ -11,7 +11,7 @@ export class CarouselService {
   constructor(private http:HttpClient) { }
 
   getImages():Observable<Carousel>{
-    return this.http.get<Carousel>("/assets/fakeBackendApi/carousel.json");
+    return this.http.get<Carousel>("assets/fakeBackendApi/carousel.json");
   }
 
 

@@ -9,6 +9,6 @@ import { Review } from '../Models/Review';
 export class ReviewService {
   constructor(private http: HttpClient) {}
   getReviews(): Observable<Review> {
-    return this.http.get<Review>('/assets/fakeBackendApi/client-reviews.json');
+    return this.http.get<Review>('assets/fakeBackendApi/client-reviews.json');
   }
 }

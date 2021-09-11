@@ -3,12 +3,12 @@
       "id":1,
       "salePercent":20,
       "productCategory":"Watches",
-      "img":"/assets/images/banner/banner1.png"
+      "img":"assets/images/banner/banner1.png"
     },
     {
       "id":2,
       "salePercent":20,
       "productCategory":"Laptops",
-      "img":"/assets/images/banner/banner2.png"
+      "img":"assets/images/banner/banner2.png"
     }
 ]
