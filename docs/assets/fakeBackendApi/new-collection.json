@@ -1,0 +1,151 @@
+[
+  {
+    "id":12,
+    "productName":"Keyboard Razor",
+    "price":5.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/new-collection/img1.jpg",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
+  },
+  {
+    "id":13,
+    "productName":"Mouse Altos",
+    "price":7.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/new-collection/img2.jpg",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
+
+
+  },
+  {
+    "id":14,
+    "productName":"Camera Yenkee",
+    "price":8.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/new-collection/img3.png",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
+
+
+  },
+  {
+    "id":15,
+    "productName":"Camera Denver",
+    "price":40.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/new-collection/img4.png",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
+  },
+  {
+    "id":16,
+    "productName":"Smart Watch Honor",
+    "price":120.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/new-collection/img5.jpg",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
+
+
+  },
+  {
+    "id":17,
+    "productName":"Scenner Canon",
+    "price":130.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/new-collection/img6.png",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
+
+
+  }
+
+
+
+]
