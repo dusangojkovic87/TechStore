@@ -73,7 +73,7 @@
   },
   {
     "id":4,
-    "productName":"Table vivax",
+    "productName":"Tablet vivax",
     "price":120,
     "qt":1,
     "avaliability":"in stock",
@@ -497,9 +497,150 @@
         "date":"01/12/2021"
       }
     ]
-
-
+  },
+  {
+    "id":20,
+    "productName":"Asus FX506HC-HN002",
+    "price":1789.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/products/img21.png",
+    "category":"Laptops",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
+  },
+  {
+    "id":21,
+    "productName":"Acer extenca 15",
+    "price":340.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/products/img22.png",
+    "category":"Laptops",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
+  },
+  {
+    "id":22,
+    "productName":"Yenkee camera",
+    "price":13.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/products/img23.png",
+    "category":"Cameras",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
+  },
+  {
+    "id":23,
+    "productName":"Natec camera",
+    "price":16.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/products/img24.jpg",
+    "category":"Cameras",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
+  },
+  {
+    "id":23,
+    "productName":"Wiko mobile",
+    "price":12.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/products/img25.png",
+    "category":"Phones",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
+  },
+  {
+    "id":24,
+    "productName":"Cat 80",
+    "price":19.00,
+    "qt":1,
+    "avaliability":"in stock",
+    "rating":4,
+    "img":"/assets/images/products/img26.png",
+    "category":"Phones",
+    "specialProduct":false,
+    "description":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Ducimus quidem voluptas nulla corrupti eaque enim veniam assumenda, et ratione amet molestiae tenetur nostrum necessitatibus minima ipsam quia maiores! Dolorem commodi quia blanditiis odio quasi non dolores suscipit ipsam placeat facere.",
+    "reviews":[
+      {
+        "author":"John Doe",
+        "reviewText":"Bad product",
+        "date":"21/12/2021"
+      },
+      {
+        "author":"Jessica James",
+        "reviewText":"Good product",
+        "date":"01/12/2021"
+      }
+    ]
   }
-
 
 ]

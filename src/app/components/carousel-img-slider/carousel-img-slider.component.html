@@ -1,15 +1,20 @@
-<div class="carousel-container" (window:resize)="onWindowResizeSlider($event)">
-  <div (click)="slideLeft()" class="slide-nav slide-left">
-    <span class="icon-arrow-left"></span>
-  </div>
+<div *ngIf="CarouselImages">
   <div
-    #slideImageTemplateRef
-    class="slide"
-    *ngFor="let carouselItem of CarouselImages"
+    class="carousel-container"
+    (window:resize)="onWindowResizeSlider($event)"
   >
-    <app-carousel-img [sliderImage]="carouselItem"></app-carousel-img>
-  </div>
-  <div (click)="slideRight()" class="slide-nav slide-right">
-    <span class="icon-arrow-right"></span>
+    <div (click)="slideLeft()" class="slide-nav slide-left">
+      <span class="icon-arrow-left"></span>
+    </div>
+    <div
+      #slideImageTemplateRef
+      class="slide"
+      *ngFor="let carouselItem of CarouselImages"
+    >
+      <app-carousel-img [sliderImage]="carouselItem"></app-carousel-img>
+    </div>
+    <div (click)="slideRight()" class="slide-nav slide-right">
+      <span class="icon-arrow-right"></span>
+    </div>
   </div>
 </div>

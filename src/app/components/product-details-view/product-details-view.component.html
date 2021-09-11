@@ -8,7 +8,7 @@
       <app-rating [rating]="p?.rating"></app-rating>
       <div class="review-wrrapper">
         <span class="icon-pencil"></span>
-        <a class="review__link" href="#">Write a review</a>
+        <a class="review__link" (click) = "loadChildComponent('reviews')">Write a review</a>
       </div>
     </div>
     <p class="product__price">

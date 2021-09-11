@@ -21,18 +21,66 @@
     >
       Specials
     </li>
-    <li (click) = "toggleCategories()">Categories</li>
+    <li (click)="toggleCategories()">
+      Categories
+      <div class="caret-wrrapper">
+        <span
+          [ngClass]="categoriesOpen ? 'icon-caret-up' : 'icon-caret-down'"
+        ></span>
+      </div>
+    </li>
     <div *ngIf="categoriesOpen" class="dropdown-container">
       <ul>
-        <li routerLink="desktops" routerLinkActive="activeLink">Desktops</li>
-        <li routerLink="laptops" routerLinkActive="activeLink">Laptops</li>
-        <li routerLink="cameras" routerLinkActive="activeLink">Cameras</li>
-        <li routerLink="phones" routerLinkActive="activeLink">Phones</li>
-        <li routerLink="scanners" routerLinkActive="activeLink">Scanners</li>
-        <li routerLink="watches" routerLinkActive="activeLink">Watches</li>
-        <li routerLink="peripherals" routerLinkActive="activeLink">Peripherals</li>
+        <li
+          routerLink="desktops"
+          routerLinkActive="activeLink"
+          (click)="closeSideNav()"
+        >
+          Desktops
+        </li>
+        <li
+          routerLink="laptops"
+          routerLinkActive="activeLink"
+          (click)="closeSideNav()"
+        >
+          Laptops
+        </li>
+        <li
+          routerLink="cameras"
+          routerLinkActive="activeLink"
+          (click)="closeSideNav()"
+        >
+          Cameras
+        </li>
+        <li
+          routerLink="phones"
+          routerLinkActive="activeLink"
+          (click)="closeSideNav()"
+        >
+          Phones
+        </li>
+        <li
+          routerLink="scanners"
+          routerLinkActive="activeLink"
+          (click)="closeSideNav()"
+        >
+          Scanners
+        </li>
+        <li
+          routerLink="watches"
+          routerLinkActive="activeLink"
+          (click)="closeSideNav()"
+        >
+          Watches
+        </li>
+        <li
+          routerLink="peripherals"
+          routerLinkActive="activeLink"
+          (click)="closeSideNav()"
+        >
+          Peripherals
+        </li>
       </ul>
-
     </div>
     <li
       routerLink="contact"

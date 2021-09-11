@@ -23,3 +23,9 @@ h2{
   margin-left:50px;
 }
 
+@media only screen and (max-width:470px){
+  .swiper-container{
+    width: 100%;
+  }
+}
+

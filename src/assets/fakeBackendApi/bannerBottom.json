@@ -2,13 +2,13 @@
   {
     "id":1,
     "salePercent":20,
-    "productCategory":"Desktop",
+    "productCategory":"Desktops",
     "img":"/assets/images/banner-bottom/img1.png"
   },
   {
     "id":2,
     "salePercent":30,
-    "productCategory":"Laptop",
+    "productCategory":"Laptops",
     "img":"/assets/images/banner-bottom/img2.png"
   }
 

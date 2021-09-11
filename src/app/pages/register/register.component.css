@@ -45,3 +45,25 @@ input{
   color: var(--light-grey);
 }
 
+@media only screen and (max-width:970px){
+  .page-container{
+    justify-content: center;
+  }
+  .aside-page-container{
+    display: none;
+  }
+}
+
+
+@media only screen and (max-width:470px){
+  input{
+    width: 80%;
+  }
+
+  .register__btn{
+    width: 80%;
+  }
+}
+
+
+

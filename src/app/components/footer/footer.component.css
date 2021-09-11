@@ -303,3 +303,33 @@ h6::first-letter{
   }
 }
 
+@media only screen and (max-width:400px){
+  .footer-bottom-info{
+    flex-direction: column;
+    height:200px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+
+  h6{
+    margin: 0;
+  }
+
+  .bottom-info-item{
+    width: 100%;
+  }
+
+}
+
+
+@media only screen and (max-width:340px){
+  .subscribe__form{
+    padding-bottom: 40px;
+    justify-content: center;
+  }
+
+  .subscribe__form input{
+    margin: 0;
+  }
+}
+

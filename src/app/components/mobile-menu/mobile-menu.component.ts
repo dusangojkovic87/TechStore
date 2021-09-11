@@ -37,6 +37,8 @@ export class MobileMenuComponent implements OnInit,OnDestroy {
   }
 
   ngOnDestroy(){
+    this.categoriesOpen = false;
+    this.mobileNavigationServise.$mobileMenuOpen.next(false);
     this.Sub?.unsubscribe();
   }
 

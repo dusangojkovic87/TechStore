@@ -9,4 +9,4 @@
     {{ sliderImage?.price | currency: "EUR" }}
   </p>
 </div>
-<button class="carousel__shop__btn">Shop</button>
+<button (click) = "redirectToSpecials()" class="carousel__shop__btn">Shop</button>

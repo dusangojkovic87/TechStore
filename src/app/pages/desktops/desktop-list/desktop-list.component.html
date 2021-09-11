@@ -1,4 +1,4 @@
-<div *ngIf="desktops" class="product-list-container">
+<div *ngIf="desktops;else empty" class="product-list-container">
   <div
     class="product-wrrapper"
     *ngFor="
@@ -8,8 +8,11 @@
     <app-product [product]="product"></app-product>
   </div>
 </div>
-<pagination-controls
+<pagination-controls *ngIf="desktops"
   class="my-pagination"
   [responsive]="true"
   (pageChange)="p = $event"
 ></pagination-controls>
+<ng-template #empty >
+    <h1 class="list__empty">List empty</h1>
+</ng-template>

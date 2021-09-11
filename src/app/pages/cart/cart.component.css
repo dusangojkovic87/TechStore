@@ -24,7 +24,7 @@ h1{
   position: relative;
   width:200px;
   height: 30px;
-  background-color: var(--light-green);
+  background-color: var(--main-orange);
   border: none;
   color: white;
   font-family: "Popins";
@@ -61,6 +61,10 @@ h1{
 @media only screen and (max-width:450px){
   .blog-container{
     height: auto;
+  }
+
+  .checkout__btn{
+    width: 160px;
   }
 
 }

@@ -43,5 +43,25 @@
     display: none;
   }
 
+  .menu__text{
+    display: none;
+  }
+
 }
+
+@media only screen and (max-width:970px){
+  .category__text{
+    display: none;
+  }
+
+}
+
+
+@media only screen and (min-width:970px){
+  .menu__text{
+    display: none;
+  }
+
+}
+
 

@@ -170,6 +170,12 @@ html,body{
   justify-content: center;
 }
 
+.list__empty{
+  font-family: "Popins";
+  text-align: center;
+}
+
+
 
 
 /*UTIL CLASSES*/
