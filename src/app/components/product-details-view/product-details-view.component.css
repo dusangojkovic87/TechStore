@@ -241,5 +241,18 @@ app-rating{
   border-top-right-radius: 5px;
 }
 
+@media only screen and (max-width:500px){
+  .add-to-cart-wrrapper{
+    width:120px;
+  }
+  .review__link{
+    display: none;
+  }
+
+  .icon-pencil{
+    display: none;
+  }
+}
+
 
 
