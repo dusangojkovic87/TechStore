@@ -1,5 +1,6 @@
 import { Component, OnDestroy, OnInit } from '@angular/core';
 import { Subscription } from 'rxjs';
+import { Product } from 'src/app/Models/Product';
 import { ProductService } from 'src/app/Services/product.service';
 
 @Component({
@@ -8,7 +9,7 @@ import { ProductService } from 'src/app/Services/product.service';
   styleUrls: ['./wishlist.component.css'],
 })
 export class WishlistComponent implements OnInit, OnDestroy {
-  wishlist: any;
+  wishlist:any;
   wishlistSubscription?: Subscription;
   p: any = 1;
 

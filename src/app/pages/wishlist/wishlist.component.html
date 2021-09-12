@@ -1,5 +1,5 @@
 <div class="wishlist-container">
-  <div *ngIf="wishlist; else emptyList">
+  <div *ngIf="wishlist && wishlist.length > 0;else emptyList">
     <div
       class="wishlist-wrrapper"
       *ngFor="
@@ -10,7 +10,7 @@
     </div>
   </div>
   <pagination-controls
-    *ngIf="wishlist"
+    *ngIf="wishlist && wishlist.length > 0"
     class="my-pagination"
     [responsive]="true"
     (pageChange)="p = $event"
