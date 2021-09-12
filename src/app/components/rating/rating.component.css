@@ -35,7 +35,7 @@ ul li{
   position: relative;
   width:20px;
   height:20px;
-  background: url("~assets/icons/rating/star.svg");
+  background: url("~src/assets/icons/rating/star.svg");
   background-repeat: no-repeat;
   display: block;
   margin:3px;
@@ -45,7 +45,7 @@ ul li{
   position: relative;
   width:20px;
   height:20px;
-  background: url("~assets/icons/rating/star-full.svg");
+  background: url("~src/assets/icons/rating/star-full.svg");
   background-repeat: no-repeat;
   display: block;
   margin:3px;

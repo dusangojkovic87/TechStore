@@ -15,7 +15,7 @@
   width: 20px;
   height: 20px;
   display: block;
-  background: url("~assets/icons/search.svg");
+  background: url("~src/assets/icons/search.svg");
   background-repeat: no-repeat;
 }
 
@@ -24,7 +24,7 @@
   width: 20px;
   height: 20px;
   display: block;
-  background: url("~assets/icons/close.svg");
+  background: url("~src/assets/icons/close.svg");
   background-repeat: no-repeat;
 }
 

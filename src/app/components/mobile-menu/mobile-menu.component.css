@@ -37,7 +37,7 @@
   position: absolute;
   width: 30px;
   height: 30px;
-  background: url("~assets/icons/side-nav-close.svg");
+  background: url("~src/assets/icons/side-nav-close.svg");
   display: block;
   background-repeat: no-repeat;
   right:20px;
@@ -75,7 +75,7 @@
   position: relative;
   width: 20px;
   height: 20px;
-  background: url("~assets/icons/mobile-menu/caret-down.svg");
+  background: url("~src/assets/icons/mobile-menu/caret-down.svg");
   display: block;
   background-repeat: no-repeat;
 }
@@ -84,7 +84,7 @@
   position: relative;
   width: 20px;
   height: 20px;
-  background: url("~assets/icons/mobile-menu/caret-up.svg");
+  background: url("~src/assets/icons/mobile-menu/caret-up.svg");
   display: block;
   background-repeat: no-repeat;
 }

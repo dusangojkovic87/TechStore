@@ -93,7 +93,7 @@ button{
   position: relative;
   width: 20px;
   height: 20px;
-  background: url("~assets/icons/cart-item/arrow-down.svg");
+  background: url("~src/assets/icons/cart-item/arrow-down.svg");
   background-repeat: no-repeat;
   display: block;
   cursor: pointer;
@@ -103,7 +103,7 @@ button{
   position: relative;
   width: 20px;
   height: 20px;
-  background: url("~assets/icons/cart-item/arrow-up.svg");
+  background: url("~src/assets/icons/cart-item/arrow-up.svg");
   background-repeat: no-repeat;
   display: block;
   cursor: pointer;

@@ -51,14 +51,14 @@
 }
 
 .account-link:hover .icon-account::before{
-  content: url("~assets/icons/account-orange.svg");
+  content: url("~src/assets/icons/account-orange.svg");
   width: 16px;
   height: 16px;
 }
 
 .account-link:hover .icon-caret-down::before{
   position: absolute;
-  content: url("~assets/icons/caret-down-orange.svg");
+  content: url("~src/assets/icons/caret-down-orange.svg");
   width: 100%;
   height: 100%;
   top: -4px;
@@ -72,7 +72,7 @@
 }
 
 .wishlist-link:hover .icon-wishlist::before{
-  content: url("~assets/icons/wishlist-orange.svg");
+  content: url("~src/assets/icons/wishlist-orange.svg");
   width: 16px;
   height: 16px;
 }
@@ -140,7 +140,7 @@
   position: relative;
   width: 16px;
   height: 16px;
-  background: url("~assets/icons/account.svg");
+  background: url("~src/assets/icons/account.svg");
   z-index: 2;
 }
 
@@ -148,7 +148,7 @@
   position: relative;
   width: 16px;
   height: 16px;
-  background: url("~assets/icons/wishlist.svg");
+  background: url("~src/assets/icons/wishlist.svg");
   z-index: 2;
 }
 
@@ -156,7 +156,7 @@
   position: relative;
   width: 10px;
   height: 10px;
-  background: url("~assets/icons/caret-down.svg");
+  background: url("~src/assets/icons/caret-down.svg");
   z-index: 2;
 }
 
@@ -164,7 +164,7 @@
   position: relative;
   width: 10px;
   height: 10px;
-  background: url("~assets/icons/caret-up-orange.svg");
+  background: url("~src/assets/icons/caret-up-orange.svg");
   z-index: 2;
 }
 
