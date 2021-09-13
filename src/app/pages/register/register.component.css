@@ -63,6 +63,10 @@ input{
   .register__btn{
     width: 80%;
   }
+
+  .validation__message{
+    margin-left: 40px;
+  }
 }
 
 
