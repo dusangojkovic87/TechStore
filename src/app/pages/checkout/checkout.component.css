@@ -24,7 +24,7 @@
 fieldset{
   position: relative;
   width: 50%;
-  height: 400px;
+  height: 400px !important;
   border: none;
   display: flex;
   flex-direction: column;
@@ -124,10 +124,15 @@ h1{
     flex-direction: column;
     align-items: center;
     height: 730px;
+    margin-top: 40px;
   }
 
   fieldset{
     width: 90%;
+  }
+
+  h6{
+    margin-top: 0;
   }
 
 
